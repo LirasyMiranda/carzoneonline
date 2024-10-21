@@ -1,0 +1,380 @@
+.vector-lineas{
+    position: absolute;
+    right: 0;
+    height: auto;
+    width: 50%;
+    z-index: -20;
+}
+.vector-zondas{
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: -20;
+    top: 1950px;
+}
+.card{
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+   }
+   .div-modelos{
+    display: flex;
+    justify-content: space-between;
+    height: 900px;
+}
+.capa-card1 {
+    background-position: center;
+}
+@media (min-width: 1024px){
+    .img-deportivos-mobile{
+        display: none;
+    }
+.img-deportivos-escritorio {
+    display: block;
+    margin-right: 30px;
+    height: auto;
+    width: 60%;
+    }
+    .vector-lineas{
+        top: 600px;
+    }
+    .vector-zondas{
+        top: 1750px;
+    }
+    .section-1 {
+        margin-bottom: 850px;
+    }
+    .main-1 {
+        padding-left: 5.5%;
+        padding-right: 5.5%;
+    }
+.capa-card3:hover {
+    width: 120%;
+}
+.capa-card4:hover {
+    width: 120%;
+}
+.capa-card5:hover {
+    width: 120%;
+}
+.capa-card6:hover {
+    width: 120%;
+}
+}
+
+@media (max-width: 1424px){
+    .h2-regulares {
+        font-size: 3em;
+        margin-bottom: 2%;
+    }
+    .vector-lineas{
+        top: 420px;
+    }
+    .vector-zondas{
+        top: 1350px;
+    }
+
+
+    }
+    @media (max-width: 1564px){
+        .vector-zondas{
+            top: 1650px;
+        }
+    }
+        @media (max-width: 1534px){
+            .vector-zondas{
+                top: 1350px;
+            }
+        }
+        
+    @media (max-width: 1300px){
+        .button{
+            padding: 15px 40px;;
+            margin-right: 5px;
+        }
+        .nombres-modelos {
+            padding-left: 25px;
+            padding-right: 5px;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+        }
+        @media (max-width: 1230px){
+            .button{
+                padding: 15px 33px;;
+                margin-right: 5px;
+            }
+        }
+        @media (max-width: 1150px){
+            .button{
+                padding: 1em 1.38em;
+                margin-right: 5px;
+            }
+            .btn{
+                padding: 1em 1em;
+            }
+            .nombres-modelos {
+                padding-left: 25px;
+                padding-right: 0px;
+                padding-top: 25px;
+                padding-bottom: 25px;
+            }
+            }
+@media (max-width: 1024px){
+    .img-deportivos-mobile{
+        display: block;
+        position: relative;
+        margin-top: 20px;
+        margin-bottom: 100px;
+        width: 100%;
+    }
+    .img-deportivos-escritorio{
+        display: none;
+    }
+    .vector-lineas{
+        top: 690px;
+        width: 100%;
+    }
+    .vector-zondas{
+        top: 1480px;
+        height: 150px;
+    }
+    .section-1 {
+        margin-bottom: 200px;
+    }
+    .div-modelos {
+        height: 1800px;
+    }
+    }
+    @media (max-width: 850px){
+        .vector-zondas{
+            top: 1650px;
+        }
+    }
+    @media (max-width: 700px){
+        .vector-zondas{
+            top: 1550px;
+        }
+    }
+    @media (max-width: 600px){
+        .vector-zondas{
+            top: 1480px;
+        }
+    }
+
+
+
+
+
+
+/*HURACAN*/
+.huracan:hover {
+    background-color: #ff0000;
+    color: hsl(0, 0%, 100%);
+}
+.huracan::before {
+    background-color: #ff0000;
+}
+.huracan::after {
+    background-color: #ff0000;
+}
+
+.capa-card1{
+    background: linear-gradient(180deg, #00000000, #0000001f, #00000000, #000000, #000000), url(sf90.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease;
+}
+/*Audi R8*/
+.r8:hover {
+    background-color: #808080;
+    color: hsl(0, 0%, 100%);
+}
+.r8::before {
+    background-color: #808080;
+}
+.r8::after {
+    background-color: #808080;
+}
+.capa-card2{
+    background: linear-gradient(180deg, #00000000, #0000001f, #00000000, #000000, #000000), url(revuelto.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease
+}
+
+/*Porsche 911*/
+.capa-card3{
+    background: linear-gradient(180deg, #00000000, #0000001f, #00000000, #000000, #000000), url(agera.one.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease
+}
+
+.porsche:hover {
+    background-color: #d15208;
+    color: hsl(0, 0%, 100%);
+}
+.porsche::before {
+    background-color: #d15208;
+}
+.porsche::after {
+    background-color: #d15208;
+}
+
+/*Tesla Model 3*/
+.capa-card4{
+    background: linear-gradient(180deg, #00000000, #0000001f, #00000000, #000000, #000000), url(amg-one.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease
+}
+
+.tesla:hover {
+    background-color: #a5a5a5;
+    color: hsl(0, 0%, 0%);
+}
+.tesla::before {
+    background-color: #a5a5a5;
+    
+}
+.tesla::after {
+    background-color: #a5a5a5;
+}
+
+/*Nissan GTR R-35*/
+.capa-card5{
+    background: linear-gradient(180deg, #00000000, #0000001f, #00000000, #000000, #000000), url(chiron.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease
+}
+
+.gtr:hover {
+    background-color: #00b7ff;
+    color: hsl(0, 0%, 100%);
+}
+.gtr::before {
+    background-color: #00b7ff;
+}
+.gtr::after {
+    background-color: #00b7ff;
+}
+
+/*Porsche 911*/
+.capa-card6{
+    background: linear-gradient(180deg, #00000000, #0000001f, #00000000, #000000, #000000), url(senna.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    transition: all 0.5s ease
+}
+
+.supra:hover {
+    background-color: #0059ff;
+    color: hsl(0, 0%, 100%);
+}
+.supra::before {
+    background-color: #0059ff;
+}
+.supra::after {
+    background-color: #0059ff;
+}
+
+
+
+
+
+/* BOTON INICIO "Explorar" */
+/* button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #183153;
+    font-family: "Montserrat", sans-serif;
+    box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    z-index: 1241012;
+  }
+  
+  button:after {
+    content: " ";
+    width: 0%;
+    height: 100%;
+    background: #ffd401;
+    position: absolute;
+    transition: all 0.4s ease-in-out;
+    right: 0;
+  }
+  
+  button:hover::after {
+    right: auto;
+    left: 0;
+    width: 100%;
+  }
+  
+  button span {
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 18px 25px;
+    color: #fff;
+    font-size: 1.125em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    z-index: 20;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover span {
+    color: #183153;
+    animation: scaleUp 0.3s ease-in-out;
+  }
+  
+  @keyframes scaleUp {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(0.95);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  } */
+  
