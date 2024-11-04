@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="deportivo.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="alquileres.css">
+<link rel="stylesheet" href="LamborghiniHuracan.css">
+<link rel="stylesheet" href="LamborghiniRevuelto.css">   <!---CNombre del archivo-->
+<link rel="stylesheet" href="Loading.css">
+<script src="https://kit.fontawesome.com/83480b7348.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="logo-nuevo2.0.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<title>Car Zone</title>
+
+</head>
+
+<body class="hidden">
+
+  
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <img src="logo-nuevo2.0.png" alt="Logo de la página" class="loader-logo">
+    <section class="section-loader" id="onload">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </section>  
+  </div>
+
+
+
+
+
+
+
+
+    <!-- Header mobile -->
+<header class="header-mobile">
+    <a class="aaa" href="hyperdeportivo.html">
+      <img class="logo" src="logo-nuevo2" alt="">
+    </a>
+    <div style="width: 100%;">
+        <i class='bx bx-search' style="color: #ffffff;"></i>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu' id="menu-icon" style='color:#ffffff'></i>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Menu mobile -->
+<ul class="menu">
+    <li><a href="hyperdeportivo.html">INFO</a></li>
+    <li><a href="hyperdeportivo.html">MODELOS</a></li>
+    <li><a href="hyperdeportivo.html">ALQUILER</a></li>
+    <li style="padding-top: 60px"><a href="https://www.instagram.com/politecnicomodelo/?hl=es-la"><i class='bx bxl-instagram'></i></a></li>
+    <li><a href="https://x.com/santiicantale"><i class='bx bxl-twitter'></i></i></a></li>
+    <li><a href="https://www.youtube.com/@politecnicomodelo/featured"><i class='bx bxl-youtube'></i></i></a></li>
+</ul>
+
+
+    <!-- Header escritorio -->
+    <header>
+        <div class="header-escritorio header-escritorio-modelos">
+                <a class="aaa" href="hyperdeportivo.html">
+                  <img class="logo" src="logo-nuevo2.0.png" alt="LogoXD">
+                </a>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                  </div>
+            <div class="header-screen">
+                <li>
+                    <a href="hyperdeportivo.html">MODELOS</a>
+                    <a href="hyperdeportivo.html">INFO</a>
+                    <a href="hyperdeportivo.html">ALQUILER</a>
+                </li>
+            </div>
+            <div class="icons">
+                <a style="color:#3a3a3a;" href="https://www.google.com/maps/place/Car+Zone/@40.6436943,-74.257946,3a,75y,134.12h,88.81t/data=!3m7!1e1!3m5!1sKJKV2VZfLyFN7lZlggF8iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.193780210206242%26panoid%3DKJKV2VZfLyFN7lZlggF8iw%26yaw%3D134.12484631776755!7i16384!8i8192!4m14!1m7!3m6!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!2sCar+Zone!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq!3m5!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"><i class='bx bx-map'></i></a>
+                                <a style="color:#ffffff;" href="tarea_html/index_login.html">
+                    <button class="botonn">
+                        Login
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>     
+    </header>
+
+
+    <!-- ESPACIO LIBRE -->
+    <div style="height: 4vh; position: relative; z-index: -10;"></div>
+    <section style="height: 5vh; position: relative; z-index: -10;">
+      <div style="width: 100%;" class="box-para"></div>
+    </section>
+
+
+
+
+    <section id="nashee" class="section-menu-modelo-fixed">
+      <div id="div-icon-fixed">
+        <i style="display: none;" class='bx bx-chevron-right' id="chevron-right" onclick="toggleMenu2()"></i>
+        <i style="display: block;" class='bx bx-chevron-left' id="chevron-left" onclick="toggleMenu2()"></i>
+      </div>
+      <div id="div-opciones-f">
+        <div id="div-opciones-f-2" style="width: 100%;">
+          <section style="width: 100%;">
+
+              <img src="Lamborghini/logo-lamborghini.png" alt="">
+              <h3>Lamborghini Revuelto 2024</h3> <!---CNombre del modelo-->
+          </section>
+          <div>
+              <a onclick="mostrarElemento1()" class="element" href="#opcion1"><p class="par parrafo">Modelo 3d</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento2()" class="element" href="#opcion2"><p class="par2 parrafo">Motorización</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento3()" class="element" href="#opcion3"><p class="par3 parrafo">Interior</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento4()" class="element" href="#opcion4"><p class="par4 parrafo">Exterior</p></a> <!---CNombre de la opcion-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-modelo3d">
+      <section class="section-modelo3d">
+        <iframe id="opcion1" title="Lamborghini_revuelto_black_matte (1) 3D model - Sketchfab" class="c-viewer__iframe" src="https://sketchfab.com/models/009f7726333a48bab375e486fae78b8d/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_ar=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+          <div class="caja-delante-3d">
+              <section class="section-abajo">
+                  <div class="div-abajo">                                                                                       
+      
+                  </div>
+              </section>
+          </div>
+      </section>
+    </main>
+
+
+
+    <!-- Caracteristicas -->
+    <div class="espacio-caracteristicas"></div>
+    <div class="caja-antes-de-carac"></div>
+    <main class="caracteristicas">
+
+
+
+        <!-- MOTORIZACION -->
+      <div id="opcion2" class="div-opcion2">
+        <section class="section-1">
+          
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Revuelto/portada-motorizacion}.jpg">
+            <span style="color: #bb621d;">
+              <span style="font-weight: 600; color: #bd2424;">Motorizacion</span>
+              <h2 id="opcion2" class="h2-regulares">Especificaciones técnicas</h2>
+              <h3 class="section-h3">
+                  • CILINDRADA: 6.498,5 cm³ (396,6 pulgadas cúbicas) <br>
+                  • Potencia combinada (ICE+EE): 1015 CV <br>
+                  • VELOCIDAD MÁXIMA: Superior a 350 km/h <br> 
+                  • ACELERACIÓN 0-100 KM/H (0–62 mph): 2,5 segundos <br>
+                  Estas características definen al Revuelto como un verdadero superdeportivo, combinando un motor de combustión interna potente con tecnología eléctrica para un rendimiento excepcional. <br>
+              </h3> 
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Revuelto/portada-motorizacion}.jpg" alt="">
+        </section>
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">  
+
+            <div>
+                <span style="color: #dddddd;">Potencia absurda</span>
+                <h2 class="h2-regulares color2">Motor</h2>
+                <h3 class="section-h3 color3">
+                  Un V12 híbrido de 6.5 litros que redefine la potencia, fusionando la tradición con la innovación para ofrecer una experiencia de conducción sin igual. Con 1015 CV de potencia combinada, este motor es la perfecta simbiosis entre el rugido clásico de Lamborghini y la eficiencia del futuro.
+                </h3>
+            </div>
+                        <!-- img escritorio -->
+                        <img class="img-deportivos-escritorio" src="Revuelto/motor.webp">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/motor.webp" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Revuelto/aceleracion.webp" alt="">
+            <div>
+                <span style="color: #af2828;">De todo tipo</span>
+                <h2 class="h2-regulares color2">Modos</h2>
+                <h3 class="section-h3 color3">
+                  La combinación de los modos de conducción e híbridos permite que la intersección activa entre el motor V12 y los motores eléctricos proporcione 13 experiencias de conducción diferentes que garantizan emociones nuevas eindescriptibles. Las experiencias de conducción abarcan cuatro categorías principales según el entorno
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/aceleracion.webp" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #ffffff;">Amplia y revolucionaria</span>
+                <h2 class="h2-regulares color2">Gearbox</h2>
+                <h3 class="section-h3 color3">
+                  Transmisión revolucionaria: Donde la potencia se encuentra con la precisión. El Lamborghini Revuelto 2023 presenta una caja de cambios de vanguardia que redefine la experiencia de conducción, fusionando velocidad y control en cada cambio de marcha.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Revuelto/gearbox.webp" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/gearbox.webp" alt="">
+          </section>
+
+          <section class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Revuelto/ldvi.webp" alt="">
+            <div>
+                <span style="color: #ffffff;">Dinámico</span>
+                <h2 class="h2-regulares color2">LDVI 2.0</h2>
+                <h3 class="section-h3 color3">
+                  El sistema Lamborghini Dinamica Veicolo Integrata (LDVI) también ha vuelto a diseñarse. Esta versión 2.0, avanzada y altamente eficiente, gestiona el par en una sola rueda y en términos de distribución longitudinal y lateral para una lógica central de tracción más dinámica que se adapta completamente a los comportamientos específicos de las ruedas durante la aceleración y el frenado.
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/ldvi.webp" alt="">
+          </section>
+
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+      <!-- INTERIOR -->
+      <div id="opcion3" class="div-opcion3">
+          <h1 style="color: #ffffff;" id="h1-opcion3">Interior</h1>
+          <section class="section-1">  
+            <img class="img-deportivos-escritorio" src="Revuelto/interior.jpg" alt=""> <!--CIMAGEN-->
+            <div>
+                <span style="color: #f36f28;">Estilo</span> <!--COLOR-->
+                <h2 class="h2-regulares">Interior</h2>
+                <h3 style="color: rgb(44, 44, 44);" class="section-h3">
+                    El interior del Lamborghini Revuelto 2023 es una obra maestra de lujo futurista donde la tecnología de vanguardia se fusiona con la artesanía italiana, creando un cockpit que redefine la experiencia de conducción superdeportiva.
+                </h3>
+            </div>  
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/interior.jpg" alt="">
+          </section>
+
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">   
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #707070;">Con Xray</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Esqueleto</h2>
+                <h3 class="section-h3 color3">
+                    Presenta una estructura revolucionaria que combina ligereza y rigidez extrema. Su innovador chasis de fibra de carbono y aleaciones avanzadas no solo optimiza el rendimiento, sino que también establece nuevos estándares en seguridad y eficiencia aerodinámica. Este esqueleto de alta tecnología es la columna vertebral de una bestia que desafía los límites de la ingeniería automotriz.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Revuelto/esqueleto.webp" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/esqueleto.webp" alt=""><!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Revuelto/cambios.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #c75a12;">Comodo como lo veas</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Cambios</h2>
+                <h3 class="section-h3 color3">
+                    Redefine el control con su innovador sistema de cambios dual: "Precisión a tu Derecha, Potencia en tus Manos". Los cambios a la derecha del conductor ofrecen una experiencia táctil única, mientras que los controles en el volante permiten una respuesta instantánea. Esta combinación fusiona la tradición de conducción deportiva con la vanguardia tecnológica, brindando al piloto un dominio total sobre la bestia italiana.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/cambios.webp" alt=""> <!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #c75a12;">Confort</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">General</h2>
+                <h3 class="section-h3 color3">
+                    "Futurismo Funcional: El Cockpit del Mañana, Hoy". El Lamborghini Revuelto 2023 redefine el lujo deportivo con un interior que fusiona diseño vanguardista y tecnología puntera. Sus múltiples pantallas, incluyendo cámaras traseras de alta definición, transforman el estacionamiento en una experiencia precisa y sin estrés. El diseño ergonómico y los materiales premium se unen a la innovación digital, creando un espacio donde el piloto se convierte en uno con la máquina. Bienvenido al futuro de la conducción superdeportiva.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Revuelto/todointerior.webp" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/todointerior.webp" alt=""> <!--Cimagen-->
+          </section>
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Revuelto/volante.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #86461c;">Tradicional</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Volante</h2>
+                <h3 class="section-h3 color3">
+                    El volante del Lamborghini Revuelto 2023 es estito como siempre, fusionando la tradición deportiva con la vanguardia tecnológica. Este centro de mando multifuncional no solo dirige la bestia, sino que pone un universo de controles al alcance de tus dedos. Desde los cambios de marcha hasta la gestión de los modos de conducción, cada detalle está diseñado para una respuesta instantánea y una conexión íntima entre el piloto y la máquina. Es más que un volante; es la interfaz definitiva entre el conductor y la leyenda italiana.
+                </h3>
+            </div>
+            <!-- img mobile -->
+              <img class="img-deportivos-mobile" src="Revuelto/volante.webp" alt=""> <!--Cimagen-->
+          </section>
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #86461c;">Multimedia en todos lados</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Patalla del acompañante</h2>
+                <h3 class="section-h3 color3">
+                    La Revolución del Copiloto. La pantalla del acompañante en el Lamborghini Revuelto 2023 redefine el concepto de viaje compartido. Este innovador display no solo ofrece entretenimiento, sino que también permite al copiloto participar activamente en la experiencia de conducción. Con acceso a información de rendimiento, navegación y sistemas del vehículo, esta pantalla transforma al pasajero en un verdadero co-piloto, fusionando lujo, tecnología y emoción en una interfaz intuitiva y elegante. Es más que una pantalla; es una ventana a la sinergia perfecta entre hombre y máquina.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Revuelto/pantalladerecha.jpg" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Revuelto/pantalladerecha.jpg" alt=""> <!--Cimagen-->
+          </section>
+        </div>
+
+      </div>
+
+
+
+
+
+
+
+        <!-- Exterior -->
+      <div id="opcion4" class="div-opcion3">
+        <h1 id="h1-opcion3">Exterior</h1> 
+        <section class="section-1">  
+          <img class="img-deportivos-escritorio" src="Revuelto/Lambo.webp" alt="">
+          <div>
+              <span style="color: #5c6b63;">Diseño Moderno</span>
+              <h2 class="h2-regulares">Exterior</h2>
+              <h3 class="section-h3">
+                El Lamborghini Revuelto 2023 redefine la aerodinámica con un diseño que es pura adrenalina visual. Cada línea, cada ángulo, desde su perfil afilado hasta su postura dominante, no solo rompe el aire, sino que desafía las expectativas. Este no es solo un automóvil; es una declaración audaz de potencia y precisión italiana, listo para conquistar tanto la carretera como la imaginación.
+              </h3>
+          </div>  
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Revuelto/Lambo.webp" alt="">
+        </section>
+
+
+      <div>
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #be630e;">Agresiva</span>
+              <h2 class="h2-regulares color2">Frontal</h2>
+              <h3 class="section-h3 color3">
+                  Diseño agresivo y aerodinámica funcional. Su imponente parrilla hexagonal, flanqueada por faros LED en forma de Y, evoca la mirada feroz de un toro embravecido. Las enormes tomas de aire laterales no solo acentúan su aspecto amenazador, sino que también optimizan el flujo de aire para un rendimiento excepcional. Cada ángulo y curva ha sido esculpido con precisión para dominar el viento, prometiendo una experiencia de conducción tan electrizante como su apariencia futurista. El Revuelto no solo corta el aire; lo conquista, estableciendo un nuevo estándar en el diseño de superdeportivos.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="Revuelto/frontal.jpg" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Revuelto/frontal.jpg" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Revuelto/trasero.jpg" alt="">
+          <div>
+              <span style="color: #be630e;">Imponente</span>
+              <h2 class="h2-regulares color2">Trasero</h2>
+              <h3 class="section-h3 color3">
+                Diseño perfecto, encarnando la filosofía "Donde la potencia se encuentra con el futuro". Con sus luces LED en forma de Y que evocan la firma visual de la marca, y un difusor aerodinámico agresivo, el Revuelto no solo deja una impresión indeleble en quienes lo ven alejarse, sino que también optimiza el rendimiento y la estabilidad a velocidades extremas. Esta vista trasera es un testimonio del compromiso de Lamborghini con la innovación y la excelencia en el diseño de superdeportivos.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Revuelto/trasero.jpg" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #d1d1d1;">Inspiracion</span>
+              <h2 class="h2-regulares color2">Planos</h2>
+              <h3 class="section-h3 color3">
+                  Los planos del Lamborghini Revuelto 2023 son un testimonio de la fusión entre la ingeniería de precisión y el diseño visionario. Cada línea y curva ha sido meticulosamente calculada para crear una obra maestra aerodinámica que no solo desafía el viento, sino que también redefine la estética de los superdeportivos. Inspirado en la naturaleza agresiva del toro y la elegancia de un jet de combate, el Revuelto encarna la filosofía de Lamborghini: "La forma sigue a la performance". Estos planos no son solo un esquema; son el ADN de una leyenda en evolución.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="Revuelto/PLANO.webp" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Revuelto/PLANO.webp" alt="">
+        </section>
+
+        <section class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Revuelto/aerodynamics.webp" alt="">
+          <div>
+              <span style="color: #be630e;">Ni el viento lo parará</span>
+              <h2 class="h2-regulares color2">Aerodinamico</h2>
+              <h3 class="section-h3 color3">
+                El Revuelto presenta un nuevo paradigma aerodinámico basado en cuatro pilares recién definidos: eficiencia para mejorar la carga aerodinámica y la resistencia, sinergia de los componentes para garantizar el nivel correcto de flujo de masas, integración de la refrigeración de los frenos a través de la aerodinámica e inspiración en el diseño para incluir elementos aerodinámicos en el enfoque creativo desde el principio. Esta nueva estrategia da como resultado un rendimiento aerodinámico mejorado que ofrece emociones inigualables.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Revuelto/aerodynamics.webp" alt="">
+        </section>
+
+        <section class="section-galeria">
+          <div class="galeria-de-imagenes">
+            <div class="fila1">
+              <img class="fto1" src="Revuelto/galeria1.jpg" alt="">
+              <img class="fto2" src="Revuelto/galeria2.jpg" alt="">
+              <img class="fto3" src="Revuelto/galeria3.jpg" alt="">
+            </div>
+            <div class="fila2">
+              <div class="div1-fila2">
+                <img class="fto4" src="Revuelto/galeria4.jpg" alt="">
+                <h1 style="margin-left: 100px;">Sin reglas</h1>
+              </div>
+              <div class="div2-fila2">
+                <img class="fto5" src="Revuelto/galeria5.jpg" alt="">
+              </div>
+            </div>
+            <h1>es como funciona el poderosisimo Revuelto 2023</h1>
+          </div>
+        </section>
+
+
+
+
+        
+      </div>
+      
+
+
+      
+    </div>
+
+    </main>
+
+
+
+
+
+      
+<!-- Footer -->
+   <footer class="footer">
+    <div class="footer-div1">
+      <div class="footer-div-row">
+
+        <div class="footer-div-links">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="consulta.html">Preguntas</a></li>
+            <li><a href="https://www.instagram.com/thiagoml43">Contactanos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div-links">
+          <h4>Modelos</h4>
+          <ul>
+            <li><a href="VolkswagenGTI.html">Volkswagen gti 2024</a></li>
+            <li><a href="BmwM1.html">BMW 1m 2012</a></li>
+            <li><a href="LamborghiniHuracan.html">Lamborghini Huracan 2020</a></li>
+            <li><a href="AudiR8.html">Audi R8 2022</a></li>
+            <li><a href="Porsche911.html">Porsche 911 2015</a></li>
+            <li><a href="ferrariSF90.html">Ferrari SF90 2020</a></li>
+            <li><a href="LamborghiniRevuelto.html">Lamborghini Revuelto 2024</a></li>
+            <li><a href="Ageraone.html">Koenniseg Agera one 2021</a></li>
+            <li><a href="MercedesAMG.html">Mercedes AMG One 2021</a></li>
+            <li><a href="Bugatti.html">Bugatti Chiron 2019</a></li>
+            <li><a href="Mclaren.html">Mclaren Senna 2020</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-div-links siguenos">
+          <h4>Síguenos</h4>
+          <div class="footer-social-link">
+            <a href="https://www.ecured.cu/images/2/28/Benjaminlira.jpg" TARGET="_BLANK"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thiagoml43" TARGET="_BLANK"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es" TARGET="_BLANK"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/santiicantale/?hl=es-la" TARGET="_BLANK"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="MODELOS.js"></script>
+  <script src="loading-modelo.js"></script>
+
+
+  
+</body>
+</html>

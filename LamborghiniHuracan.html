@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="deportivo.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="alquileres.css">
+<link rel="stylesheet" href="LamborghiniHuracan.css"> <!---CNombre del archivo-->
+<link rel="stylesheet" href="Loading.css">
+<script src="https://kit.fontawesome.com/83480b7348.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="logo-nuevo2.0.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<title>Car Zone</title>
+
+</head>
+
+<body class="hidden">
+
+  
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <img src="logo-nuevo2.0.png" alt="Logo de la página" class="loader-logo">
+    <section class="section-loader" id="onload">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </section>  
+  </div>
+
+
+
+
+
+
+
+
+    <!-- Header mobile -->
+<header class="header-mobile">
+    <a class="aaa" href="deportivo.html">
+      <img class="logo" src="logo-nuevo2.0.png" alt="">
+    </a>
+    <div style="width: 100%;">
+        <i class='bx bx-search' style="color: #ffffff;"></i>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu' id="menu-icon" style='color:#ffffff'></i>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Menu mobile -->
+<ul class="menu">
+    <li><a href="deportivo.html">INFO</a></li>
+    <li><a href="deportivo.html">MODELOS</a></li>
+    <li><a href="deportivo.html">ALQUILER</a></li>
+    <li style="padding-top: 60px"><a href="https://www.instagram.com/politecnicomodelo/?hl=es-la"><i class='bx bxl-instagram'></i></a></li>
+    <li><a href="https://x.com/santiicantale"><i class='bx bxl-twitter'></i></i></a></li>
+    <li><a href="https://www.youtube.com/@politecnicomodelo/featured"><i class='bx bxl-youtube'></i></i></a></li>
+</ul>
+
+
+    <!-- Header escritorio -->
+    <header>
+        <div class="header-escritorio header-escritorio-modelos">
+                <a class="aaa" href="deportivo.html">
+                  <img class="logo" src="logo-nuevo2.0.png" alt="LogoXD">
+                </a>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                  </div>
+            <div class="header-screen">
+                <li>
+                    <a href="deportivo.html">MODELOS</a>
+                    <a href="deportivo.html">INFO</a>
+                    <a href="deportivo.html">ALQUILER</a>
+                </li>
+            </div>
+            <div class="icons">
+                <a style="color:#3a3a3a;" href="https://www.google.com/maps/place/Car+Zone/@40.6436943,-74.257946,3a,75y,134.12h,88.81t/data=!3m7!1e1!3m5!1sKJKV2VZfLyFN7lZlggF8iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.193780210206242%26panoid%3DKJKV2VZfLyFN7lZlggF8iw%26yaw%3D134.12484631776755!7i16384!8i8192!4m14!1m7!3m6!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!2sCar+Zone!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq!3m5!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"><i class='bx bx-map'></i></a>
+                <a style="color:#ffffff;" href="tarea_html/index_login.html">
+                    <button class="botonn">
+                        Login
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>     
+    </header>
+
+
+    <!-- ESPACIO LIBRE -->
+    <div style="height: 4vh; position: relative; z-index: -10;"></div>
+    <section style="height: 5vh; position: relative; z-index: -10;">
+      <div style="width: 100%;" class="box-para"></div>
+    </section>
+
+
+
+
+    <section id="nashee" class="section-menu-modelo-fixed">
+      <div id="div-icon-fixed">
+        <i style="display: none;" class='bx bx-chevron-right' id="chevron-right" onclick="toggleMenu2()"></i>
+        <i style="display: block;" class='bx bx-chevron-left' id="chevron-left" onclick="toggleMenu2()"></i>
+      </div>
+      <div id="div-opciones-f">
+        <div id="div-opciones-f-2" style="width: 100%;">
+          <section style="width: 100%;">
+
+              <img src="Lamborghini/logo-lamborghini.png" alt="">
+              <h3>Lamborghini Huracan Evo Rwd 2019</h3> <!---CNombre del modelo-->
+          </section>
+          <div>
+              <a onclick="mostrarElemento1()" class="element" href="#opcion1"><p class="par parrafo">Modelo 3d</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento2()" class="element" href="#opcion2"><p class="par2 parrafo">Motorización</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento3()" class="element" href="#opcion3"><p class="par3 parrafo">Interior</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento4()" class="element" href="#opcion4"><p class="par4 parrafo">Exterior</p></a> <!---CNombre de la opcion-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-modelo3d">
+      <section class="section-modelo3d">
+        <iframe id="opcion1" title="Lamborghini Huracan Evo 2019 3D model - Sketchfab" class="c-viewer__iframe" src="https://sketchfab.com/models/b1dc0877da6c490ebf8f8c5464904bc3/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+          
+          <div class="caja-delante-3d">
+              <section class="section-abajo">
+                  <div class="div-abajo">
+      
+                  </div>
+              </section>
+          </div>
+      </section>
+    </main>
+
+
+
+    <!-- Caracteristicas -->
+    <div class="espacio-caracteristicas"></div>
+    <div class="caja-antes-de-carac"></div>
+    <main class="caracteristicas">
+
+
+
+        <!-- MOTORIZACION -->
+      <div id="opcion2" class="div-opcion2">
+        <section class="section-1">
+          
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Lamborghini/lamboevo.webp">
+            <span style="color: #bb621d;">
+              <span style="font-weight: 600; color: #db803b;">Motorizacion</span>
+              <h2 id="opcion2" class="h2-regulares color2">Especificaciones técnicas</h2>
+              <h3 class="section-h3 color3">
+                CILINDRADA<br>
+                5 204 cm³ (317,57 cu in)<br>
+                POTENCIA MÁXIMA<br>
+                610 CV (449 kW) <br>
+                VELOCIDAD MÁXIMA<br>
+                325 km/h<br>
+                ACELERACIÓN 0-100 KM/H<br>
+                3,3 s 
+              </h3> 
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Lamborghini/lamboevo.webp" alt="">
+        </section>
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">  
+
+            <div>
+                <span style="color: #e7b97a;">Potencia pura</span>
+                <h2 class="h2-regulares color2">Motor</h2>
+                <h3 class="section-h3 color3">
+                  El inconfundible V10 de aspiración natural tomado del Huracán EVO, es decir, de la máxima evolución de este tipo de motor, mantiene intactas sus características tecnológicas, el inconfundible sonido del V10 Lamborghini, la estructura de aleación ligera y las válvulas de aspiración de titanio de los cilindros.
+                </h3>
+            </div>
+                        <!-- img escritorio -->
+                        <img class="img-deportivos-escritorio" src="Lamborghini/motor.webp" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/motor.webp" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Lamborghini/suspension.webp" alt="">
+            <div>
+                <span style="color: #747474;">Evo 2019</span>
+                <h2 class="h2-regulares color2">Suspensiones</h2>
+                <h3 class="section-h3 color3">
+                  La arquitectura de las suspensiones del Huracán EVO RWD está formada por cuadriláteros superpuestos que garantizan un equilibrio perfecto entre la agilidad y las prestaciones deportivas del automóvil.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/suspension.webp" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #ffffff;">Asistencia</span>
+                <h2 class="h2-regulares color2">Dirección</h2>
+                <h3 class="section-h3 color3">
+                  El Huracán EVO RWD cuenta con Electronic Power Steering (EPS), es decir, con una dirección asistida electrónica que se adapta a todas las modalidades de conducción del sistema ANIMA para garantizar la mejor asistencia de viraje, tanto en carretera como en pista.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Lamborghini/direccion.webp" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/direccion.webp" alt="">
+          </section>
+
+          <section class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Lamborghini/transmision.webp" alt="">
+            <div>
+                <span style="color: #929292;">Mecanismo</span>
+                <h2 class="h2-regulares color2">Transmisión</h2>
+                <h3 class="section-h3 color3">
+                  Imagine poder utilizar un mecanismo de doble fricción en la misma unidad: cuando se selecciona una marcha, se engrana la siguiente para reducir al mínimo el tiempo de embrague/desembrague a través de un mecanismo que permite obtener la máxima reactividad y continuidad.
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/transmision.webp" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #8d9ba1;">Directrices</span>
+                <h2 class="h2-regulares color2">Sistema Ruedas</h2>
+                <h3 class="section-h3 color3">
+                  El Huracán EVO ofrece una combinación única entre el sistema activo de dirección (Lamborghini Dynamic Steering) y el de dirección trasera (Lamborghini All-wheel Steering) para ofrecer un rendimiento dinámico de máximo nivel.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Lamborghini/4ruedas.webp" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/4ruedas.webp" alt="">
+          </section>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+      <!-- INTERIOR -->
+      <div id="opcion3" class="div-opcion3">
+          <h1 id="h1-opcion3">Interior</h1>
+          <section class="section-1">  
+            <img class="img-deportivos-escritorio" src="Lamborghini/interior.webp" alt=""> <!--CIMAGEN-->
+            <div>
+                <span style="color: #f36f28;">Como en una nave</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Interno</h2>
+                <h3 class="section-h3 color3">
+                  El interior del Huracan es la fusión perfecta de potencia y elegancia, transformando cada ruta en una experiencia de conducción excepcional."
+                </h3>
+            </div>  
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/interior.webp" alt="">
+          </section>
+
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">   
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #b18b5f;">A todo alcanza</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Pantalla y HMI.</h2>
+                <h3 class="section-h3 color3">
+                  un viaje donde la tecnología de vanguardia se une a la potencia sublime, creando una experiencia de conducción única y emocionante en cada kilómetro. También la nueva interfaz hombre-máquina es pura expresión de una evolución natural y tecnológica.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Lamborghini/Pantalla.webp" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/Pantalla.webp" alt=""><!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Lamborghini/interior-azul.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #0285cd;">Ahora azul</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Tema</h2>
+                <h3 class="section-h3 color3">
+                  Tiene interior a eleccion de azul, un refugio de elegancia y dinamismo, donde cada detalle está diseñado para elevar tu experiencia de conducción al siguiente nivel.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/interior-azul.webp" alt=""> <!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #316206;">Conecte</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Huracan tecnica</h2>
+                <h3 class="section-h3 color3">
+                  El exclusivo y avanzado paquete de tecnologías conectadas está preparado para llevar la experiencia de conducción a un nivel sin precedentes. Lamborghini Connect transmite tranquilidad a los conductores de Huracán Tecnica cuando no están al volante y ofrece funciones actualizadas a bordo.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Lamborghini/inter.webp" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Lamborghini/inter.webp" alt=""> <!--Cimagen-->
+          </section>
+        </div>
+
+
+        
+
+
+        
+      </div>
+
+
+
+
+
+
+
+        <!-- Exterior -->
+      <div id="opcion4" class="div-opcion3">
+        <h1 id="h1-opcion3">Exterior</h1> 
+        <section class="section-1">  
+          <img class="img-deportivos-escritorio" src="Lamborghini/exterior.jpg" alt="">
+          <div>
+              <span style="color: #aa932a;">Evo 2019</span>
+              <h2 class="h2-regulares color2">General</h2>
+              <h3 class="section-h3 color3">
+                Donde la elegancia audaz se fusiona con la potencia sin límites. Cada línea esculpida y cada curva dinámica cuentan una historia de innovación y adrenalina. Redefine cada trayecto y transforma el asfalto en tu lienzo. Vive la experiencia de un diseño que no solo se mira, sino que se siente, elevando tus sentidos a nuevas alturas.
+              </h3>
+          </div>  
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Lamborghini/exterior.jpg" alt="">
+        </section>
+
+
+      <div>
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #ffff00;">Iconico</span>
+              <h2 class="h2-regulares color2">Diseño</h2>
+              <h3 class="section-h3 color3">
+                Está inspirado en una combinación de la herencia icónica de la marca y la evolución de la aerodinámica moderna. Se basa en el legado de modelos anteriores, como el Huracán, pero incorpora elementos más agresivos y sofisticados. La aerodinámica se ha optimizado para mejorar la estabilidad y el rendimiento, inspirándose en el mundo de la competición y en la naturaleza, con líneas que evocan la rapidez y la agilidad.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="Lamborghini/plano.webp" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Lamborghini/plano.webp" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Lamborghini/detras.jpg" alt="">
+          <div>
+              <span style="color: #8e6405;">Feroz</span>
+              <h2 class="h2-regulares color2">Trasero</h2>
+              <h3 class="section-h3 color3">
+                Con una mirada feroz y un diseño que desafía la gravedad, el Lamborghini EVO 2019 redefine la perspectiva trasera. Cada línea esculpida y cada detalle aerodinámico no solo reflejan su potencia, sino que también cuentan la historia de un legado inigualable. Desde cualquier ángulo, es un símbolo de velocidad y elegancia que te invita a dejar huella en cada camino.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Lamborghini/detras.webp" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #be8b12;">La fachada</span>
+              <h2 class="h2-regulares color2">Frontal</h2>
+              <h3 class="section-h3 color3">
+                Se erige como una obra maestra de diseño y potencia. Su fachada audaz, con líneas agresivas y un estilo inconfundible, captura la esencia de la velocidad y la innovación. Cada detalle, desde la parrilla imponente hasta los faros afilados, está diseñado para impactar y seducir. Prepárate para sentir la adrenalina y la emoción desde el primer vistazo: el futuro del automovilismo comienza aquí.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="Lamborghini/fronal.jpg" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Lamborghini/fronal.jpg" alt="">
+        </section>
+
+        <section class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Lamborghini/rueda.webp" alt="">
+          <div>
+              <span style="color: #ce2014;">Perfecta</span>
+              <h2 class="h2-regulares color2">Ruedas</h2>
+              <h3 class="section-h3 color3">
+                Con cada giro, la esencia de la velocidad se despliega, un símbolo de potencia y precisión. Diseñadas para ofrecer un agarre incomparable, transforman cada curva en una experiencia electrizante. Siente la conexión entre el asfalto y la adrenalina, donde cada rotación te acerca a la emoción pura de la carretera.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Lamborghini/rueda.webp" alt="">
+        </section>
+
+        <section class="section-galeria">
+          <div class="galeria-de-imagenes">
+            <div class="fila1">
+              <img class="fto1" src="Lamborghini/galeria1.webp" alt="">
+              <img class="fto2" src="Lamborghini/galeria2.webp" alt="">
+              <img class="fto3" src="Lamborghini/galeria3.webp" alt="">
+            </div>
+            <div class="fila2">
+              <div class="div1-fila2">
+                <img class="fto4" src="Lamborghini/galeria4.webp" alt="">
+                <h1 style="margin-left: 100px;">Velocidad</h1>
+              </div>
+              <div class="div2-fila2">
+                <img class="fto5" src="Lamborghini/galeria5.webp" alt="">
+              </div>
+            </div>
+            <h1>sin límites: Lamborghini EVO 2019, donde la emoción cobra vida</h1>
+          </div>
+        </section>
+
+
+
+
+        
+      </div>
+      
+
+
+      
+    </div>
+
+    </main>
+
+
+
+
+
+      
+<!-- Footer -->
+   <footer class="footer">
+    <div class="footer-div1">
+      <div class="footer-div-row">
+
+        <div class="footer-div-links">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="consulta.html">Preguntas</a></li>
+            <li><a href="https://www.instagram.com/thiagoml43">Contactanos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div-links">
+          <h4>Modelos</h4>
+          <ul>
+            <li><a href="VolkswagenGTI.html">Volkswagen gti 2024</a></li>
+            <li><a href="BmwM1.html">BMW 1m 2012</a></li>
+            <li><a href="LamborghiniHuracan.html">Lamborghini Huracan 2020</a></li>
+            <li><a href="AudiR8.html">Audi R8 2022</a></li>
+            <li><a href="Porsche911.html">Porsche 911 2015</a></li>
+            <li><a href="ferrariSF90.html">Ferrari SF90 2020</a></li>
+            <li><a href="LamborghiniRevuelto.html">Lamborghini Revuelto 2024</a></li>
+            <li><a href="Ageraone.html">Koenniseg Agera one 2021</a></li>
+            <li><a href="MercedesAMG.html">Mercedes AMG One 2021</a></li>
+            <li><a href="Bugatti.html">Bugatti Chiron 2019</a></li>
+            <li><a href="Mclaren.html">Mclaren Senna 2020</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-div-links siguenos">
+          <h4>Síguenos</h4>
+          <div class="footer-social-link">
+            <a href="https://www.ecured.cu/images/2/28/Benjaminlira.jpg" TARGET="_BLANK"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thiagoml43" TARGET="_BLANK"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es" TARGET="_BLANK"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/santiicantale/?hl=es-la" TARGET="_BLANK"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="MODELOS.js"></script>
+  <script src="loading-modelo.js"></script>
+
+
+  
+</body>
+</html>

@@ -1,0 +1,521 @@
+@font-face {
+    font-family: 'dodger';
+    src: url('./font-dodger/dodger3_1laser.ttf') format('truetype');
+}
+header{
+    background-color: #000000;
+    background:linear-gradient(180deg, rgb(0, 0, 0) 0%, #000000 100%);
+}
+.header-screen li a{
+    color: #ffffff;
+}
+.section-beneficios{
+    color: #ffffff;
+    padding-bottom: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.titulo-beneficios{
+    margin-bottom: 40px;
+    display: flex;
+    margin-top: 100px;
+}
+.main-alquilers{
+    background-color: #000000;
+}
+.section-eleccion{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    position: relative;
+    z-index: 425;
+    background-color: #000000;
+    border: 6px solid black;
+}
+.div-div-eleccion{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.98;
+}
+.div-eleccion{
+    max-width: 1200px;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    gap: 2px;
+}
+.select-hora{
+    height: 100%;
+}
+.select-hora2{
+    height: 100%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.eleccion{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 0;
+}
+.fecha-alquiler{
+    width: 80%;
+}
+.fecha-devolucion{
+    width: 80%;
+}
+.horario{
+    width: 15%;
+}
+.hora-alquiler{
+    width: 30%;
+}
+.hora-devolucion{
+    width: 50%;
+}
+.div-amodelos{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.amodelos{
+    font-size: 20px;
+    background-color: transparent;
+    padding-left: 16px;
+    border: 0;
+}
+.amodelos-modelos{
+    
+}
+.select-hora2{
+    
+}
+.amodelos option{
+    padding-left: 300px;   
+}
+.eleccion h3{
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ffffffdd;
+    font-weight: 600;
+    padding-left: 14px;
+}
+.inputs{
+    display: block;
+    width: 100%;
+    height: 45%;
+    font-size: 18px;
+    background-color: #ffffff;
+    border: 0;
+    padding-left: 15px;
+}
+.input-eleccion{
+    background-color: transparent;
+    font-size: 17px;
+}
+.input-eleccion::placeholder {
+    color: rgb(196, 196, 196);
+    font-size: 16px;
+}
+
+.inputs input{
+    width: 100%;
+    height: 100%;
+}
+.inputs select{
+    width: 100%;
+    height: 100%;
+}
+input{
+    border: none;
+}
+input:focus, 
+select:focus {
+    outline: none;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+}
+hr{
+    display: block;
+    height: 1px;
+    width: 75%;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* PREGUNTAS */
+body{
+    background-color: #000000;
+}
+.preguntas-section{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.preguntas-section h1{
+    color: #ffffff;
+}
+.preguntas-section div{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.preguntas-section div p{
+    color: #F2F2F2;
+    font-size: 1.2rem;
+}
+.preguntas-section div span{
+    color: #F2F2F2;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.div-div-beneficios{
+    display: flex;
+}
+.titulo-beneficios h1{
+    font-size: 56px;
+}
+.titulo-beneficios h2{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 56px;
+    font-family: 'dodger', sans-serif;
+    position: relative;
+    z-index: 62;
+    color: rgb(0, 78, 180);
+}
+.titulo-beneficios p{
+    color: #bebebe;
+    margin-right: 400px;
+    z-index: 45;
+    position: relative;
+    z-index: 62;
+}
+.div-lineas-decorativas{
+    width: 500px;
+}
+.titulo-beneficios img{
+    width: 30em;
+    position: absolute;
+    right: 0;
+}
+
+
+.div-sub-beneficios{
+    display: flex;
+    gap: 50px;
+}
+.sub-beneficios{
+    margin-top: 40px;
+}
+.sub-beneficios h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: rgb(0, 78, 180);
+}
+.sub-beneficios i{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: rgb(0, 78, 180);
+}
+.sub-beneficios p{
+    line-height: 1.7;
+    color: #cacaca;
+}
+.hora-devolucion, .select-hora2{
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+@media(max-width: 1024px){
+    
+.main-alquilers{
+    width: 100%;
+}
+.section-eleccion{
+    border: 0;
+    height: 700px;
+}
+.div-eleccion{
+    display: block;
+    height: 19%;
+}
+.eleccion{
+    width: 95%;
+}
+.junte-de-hora{
+    display:flex;
+    height:100%;
+    gap:0.5px;
+    width: 95%;
+}
+
+.inputs{
+    border-radius: 20px;
+    width: 100%;
+}
+.inputs-mobile{
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.inputs-mobile-fecha{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.div-div-eleccion{
+    height: 100%;
+}
+    .section-beneficios{
+        width: 100%;
+        margin: 0;
+        padding-left: 10px;
+        padding-right: 40px;
+    }
+.titulo-beneficios{
+    width: 100%;
+}
+.titulo-beneficios img{
+    display: none;
+}
+    .titulo-beneficios div{
+        width: 100%;
+    }
+    .div-div-beneficios{
+        display: block;
+    }
+    .div-div-beneficios h1{
+        padding-left: 15px;
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+    .div-div-beneficios h2{
+        font-size: 45px;
+        padding-top: 0;
+        margin-bottom: 40px;
+    }
+    .p-titulo-beneficios{
+        padding-left: 20px;
+        width: 100%;
+    }
+
+.div-sub-beneficios{
+    width: 100%;
+    display: block;
+}
+.sub-beneficios{
+    padding-left: 20px;
+}
+.sub-beneficios i{
+    margin-bottom: 10px;
+}
+.sub-beneficios h3{
+    margin-bottom: 15px;
+}
+.map h2 {
+    text-align: center;
+}
+
+}
+
+
+
+
+
+
+
+@media(min-width: 1024px) {
+        section {
+        margin-top: 5vh;
+        color: #000000;
+    }
+    section h1{
+        font-size: 8vh;
+        margin-bottom: 40px;
+    }
+
+    
+
+
+    .map h2{
+        background-color: #000000;
+    }
+    .junte-de-hora{
+        display:flex;
+        width: 55%;
+        height:100%;
+        gap:0.5px;
+    }
+
+}
+@media (min-width: 1720px){
+    .titulo-beneficios {
+        margin-bottom: 120px;
+        margin-right: 150px;
+    }
+    .titulo-beneficios img {
+        width: 700px;
+        position: absolute;
+        right: 0;
+    }
+}
+.section-map{
+    height: 95vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-color: #222833;
+    background-image: url(maps-argentina.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.section-map-div{
+    background-color: transparent;
+    background-image: linear-gradient(0deg, #000000 20%, #30222500 100%);
+    opacity: 0.98;
+    width: 100%;
+    height: 95vh;
+    position: absolute;
+    z-index: 1;
+}
+.map{
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    justify-content: flex-start;
+    position: absolute;
+    top: 150px;
+    z-index: 235;
+}
+.map i{
+    font-size: 90px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+.map h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.map h3{
+    margin-top: 10px;
+    font-size: 29px;
+    font-family: 'dodger', sans-serif;
+    color: rgb(0, 78, 180);
+    background-color: #000000;
+}
+.map h4{
+    padding-top: 1px;
+    font-size: 29px;
+    font-family: 'dodger', sans-serif;
+    color: rgb(0, 78, 180);
+    background-color: #000000;
+}
+.boton-concesionario {
+        font-weight: 700;
+        color: #ffffff;
+        margin-top: 20px;
+        font-size: 15px;
+        min-width: 100px;
+        height: 45px;
+        padding: 0 0px;
+        border-radius: 20px;
+        border: 2.5px solid #353535;
+        box-shadow: 0px 0px 20px -20px;
+        cursor: pointer;
+        background-color: rgb(0, 0, 0);
+        transition: all 0.2s ease-in-out 0ms;
+        cursor: pointer;
+    } 
+    .boton-concesionario a{
+        color: #ffffff;
+        padding: 10px 20px;
+    }
+    .boton-concesionario a:hover{
+        color: #000000;
+    }
+.boton-concesionario:hover {
+        background-color: #F2F2F2;
+        box-shadow: 0px 0px 20px -18px;
+    }
+    .boton-concesionario:active {
+        transform: scale(0.95);
+    }
+
+    
+
+/* BOTON ENVIAR */
+.div-enviar{
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+.enviar {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    border: none;
+    background: none;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.enviar::before {
+    margin-left: auto;
+}
+.enviar::after, .enviar::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:  #112fc8;
+    display: block;
+    transition: 0.5s;
+}
+.enviar:hover::after, .enviar:hover::before {
+    width: 100%;
+}
+@media(max-width: 1024px) {
+    .div-enviar{
+        margin-top: -300px;
+        position: relative;
+        z-index: 124124;
+    }
+    .enviar{
+        margin-top: 30px;
+    }
+}

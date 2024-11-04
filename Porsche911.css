@@ -1,0 +1,71 @@
+.header-mobile{
+   background-color: #939898;
+}
+header{
+   background-color: #939898;
+}
+.espacio-caracteristicas{
+   background-color: #939898;
+}
+.caja-delante-3d{
+   background-color: #939898;
+}
+.caracteristicas{
+   background: linear-gradient(180deg, #939898, #939898, #939898, #000000, #000000, #000000, #000000, #000000);
+}
+.active{
+   background-color: #858585;
+}
+
+
+@media (max-width: 1024px){
+  .open {
+     background-color: #000000;
+  }
+}
+
+.slide-img1{
+   width: 70%;
+   height: 100%;
+   background: url(R8/camaratrasera.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.slide-img2{
+   width: 70%;
+   height: 100%;
+   background: url(R8/cambios-en-volante.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.slide-img3{
+   width: 70%;
+   height: 100%;
+   background: url(R8/control-radio.jpg);
+   background-position: center;
+   background-size: cover;
+}
+.slide-img4{
+   width: 70%;
+   height: 100%;
+   background: url(R8/dos-puertas.jpg);
+   background-position: center;
+   background-size: cover;
+}
+#slides .slide_1 {
+   background: #ffffff;
+   color: #000000;
+}
+#slides .slide_2 {
+   background: #4b4b4b;
+}
+#slides .slide_3 {
+   background: #ffffff;
+   color: #000000;
+}
+#slides .slide_4 {
+   background: #ac120d;
+}
+.h2-regulares{
+  color: #ffffff;
+}

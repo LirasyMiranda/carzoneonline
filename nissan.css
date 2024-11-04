@@ -1,0 +1,119 @@
+.header-mobile{
+    background-color: rgba(34,34,34,255);
+}
+header{
+   background-color: rgba(34,34,34,255);
+   background: linear-gradient(180deg, #dddddd 0%, #dddddd 80%);
+}
+.header-screen li a{
+   color: #ffffff;
+}
+.nombre{
+    padding-top: 5%;
+}
+.caracteristicas{
+    background-color: #dddddd;
+}
+.espacio-caracteristicas{
+    background-color: #dddddd;
+}
+.caja-delante-3d{
+    background-color: #dddddd;
+}
+.caja-antes-de-carac{
+   background: linear-gradient(180deg, #dadbda, #dddddd, rgb(219, 219, 219), rgb(217, 217, 217), rgb(215, 215, 215), rgb(213, 213, 213), rgb(211, 211, 211), rgb(209, 209, 209), rgb(207, 207, 207), rgb(205, 205, 205), rgb(203, 203, 203), rgb(201, 201, 201), rgb(199, 199, 199), rgb(197, 197, 197), rgb(195, 195, 195), rgb(193, 193, 193), rgb(191, 191, 191), rgb(189, 189, 189), rgb(187, 187, 187), rgb(185, 185, 185), rgb(183, 183, 183), rgb(181, 181, 181), rgb(179, 179, 179), rgb(177, 177, 177), rgb(175, 175, 175), rgb(173, 173, 173), rgb(171, 171, 171), rgb(169, 169, 169), rgb(167, 167, 167), rgb(165, 165, 165), rgb(163, 163, 163), rgb(161, 161, 161), rgb(159, 159, 159), rgb(157, 157, 157), rgb(155, 155, 155), rgb(153, 153, 153), rgb(151, 151, 151), rgb(149, 149, 149), rgb(147, 147, 147), rgb(145, 145, 145), rgb(143, 143, 143), rgb(141, 141, 141), rgb(139, 139, 139), rgb(137, 137, 137), rgb(135, 135, 135), rgb(133, 133, 133), rgb(131, 131, 131), rgb(129, 129, 129), rgb(127, 127, 127), rgb(125, 125, 125), rgb(123, 123, 123), rgb(121, 121, 121), rgb(119, 119, 119), rgb(117, 117, 117), rgb(115, 115, 115), rgb(113, 113, 113), rgb(111, 111, 111), rgb(109, 109, 109), rgb(107, 107, 107), rgb(105, 105, 105), rgb(103, 103, 103), rgb(101, 101, 101), rgb(99, 99, 99), rgb(97, 97, 97), rgb(95, 95, 95), rgb(93, 93, 93), rgb(91, 91, 91), rgb(89, 89, 89), rgb(87, 87, 87), rgb(85, 85, 85), rgb(83, 83, 83), rgb(81, 81, 81), rgb(79, 79, 79), rgb(77, 77, 77), rgb(75, 75, 75), rgb(73, 73, 73), rgb(71, 71, 71), rgb(69, 69, 69), rgb(67, 67, 67), rgb(65, 65, 65), rgb(63, 63, 63), rgb(61, 61, 61), rgb(59, 59, 59), rgb(57, 57, 57), rgb(55, 55, 55), rgb(53, 53, 53), rgb(51, 51, 51), rgb(49, 49, 49), rgb(47, 47, 47), rgb(45, 45, 45), rgb(43, 43, 43), rgb(41, 41, 41), rgb(39, 39, 39), rgb(37, 37, 37), rgb(35, 35, 35), rgb(33, 33, 33), rgb(31, 31, 31), rgb(29, 29, 29), rgb(27, 27, 27), rgb(25, 25, 25), rgb(23, 23, 23), rgb(21, 21, 21), rgb(19, 19, 19), rgb(17, 17, 17), rgb(15, 15, 15), rgb(13, 13, 13), rgb(11, 11, 11), rgb(9, 9, 9), rgb(7, 7, 7), rgb(5, 5, 5), rgb(3, 3, 3), rgb(1, 1, 1), rgb(0, 0, 0));
+}
+.active{
+    background-color: #f52929;
+    color: black;
+}
+.parrafo:hover{
+   background-color: #dddddd;
+}
+.motorr{
+   width: 95%;
+   display: block;
+   margin-bottom: 40px;
+}
+.h2-subtituloss{
+   padding-top: 30px;
+}
+.motorr-h3{
+   font-size: 18px;
+   padding-bottom: 30px;
+}
+.motor-subtitulos{
+   font-weight: 900;
+}
+
+@media (max-width: 1024px){
+   .open {
+      background-color: #dddddd;
+   }
+   .menu li a{
+      color: #000000;
+   }
+   .section-menu-modelo-fixed{
+      border-radius: 8px;
+    }
+}
+
+.slide-img1{
+    width: 70%;
+    height: 100%;
+    background: url(Mercedes/puerta.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .slide-img2{
+    width: 70%;
+    height: 100%;
+    background: url(Mercedes/seguridad.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .slide-img3{
+    width: 70%;
+    height: 100%;
+    background: url(Mercedes/full.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .slide-img4{
+    width: 70%;
+    height: 100%;
+    background: url(R8/dos-puertas.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ #slides .slide_1 {
+    background: #ffffff;
+    color: #dddddd;
+ }
+ #slides .slide_2 {
+    background: #4b4b4b;
+ }
+ #slides .slide_3 {
+    background: #ffffff;
+    color: #dddddd;
+ }
+ #slides .slide_4 {
+    background: #ac120d;
+ }
+
+
+ .section-menu-modelo-fixed{
+   background-color: #d8d4cf;
+ }
+ #div-opciones-f{
+   background-color: #d8d4cf;
+ }
+ #div-icon-fixed{
+   background-color: #d8d4cf;
+ }
+ .section-menu-modelo-fixed a{
+   color: #494949;
+ }
+ .parrafo:hover{
+   background-color: #c4c4c4;
+ }

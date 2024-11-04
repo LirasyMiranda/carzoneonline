@@ -1,0 +1,128 @@
+.header-mobile{
+    background-color: rgba(34,34,34,255);
+}
+header{
+   background-color: rgba(34,34,34,255);
+   background: linear-gradient(180deg, #000000 0%, #000000 80%);
+}
+.header-screen li a{
+   color: #ffffff;
+}
+.input{
+
+   
+}
+
+.espacio-caracteristicas{
+    background-color: #000000;
+}
+.caja-delante-3d{
+    background-color: #000000;
+}
+.caracteristicas{
+   background: linear-gradient(180deg, #000000,
+   #000000);
+}
+.caja-antes-de-carac{
+   height: 0;
+   background: linear-gradient(180deg, #000000, #000000);
+}
+.active{
+    background-color: #f58229;
+    color: black;
+}
+.parrafo:hover{
+   background-color: #000000;
+}
+.motorr{
+   width: 95%;
+   display: block;
+   margin-bottom: 40px;
+}
+.h2-subtituloss{
+   padding-top: 30px;
+}
+.motorr-h3{
+   font-size: 18px;
+   padding-bottom: 30px;
+}
+.motor-subtitulos{
+   font-weight: 900;
+}
+@media (min-width: 1024px) {
+   .section-11 {
+       display: block;
+       
+   }
+}
+@media (max-width: 1024px){
+   .open {
+      background-color: #000000;
+   }
+   .menu li a{
+      color: #ffffff;
+   }
+   .section-menu-modelo-fixed{
+      border-radius: 8px;
+    }
+}
+
+.slide-img1{
+    width: 70%;
+    height: 100%;
+    background: url(Mercedes/puerta.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .slide-img2{
+    width: 70%;
+    height: 100%;
+    background: url(Mercedes/seguridad.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .slide-img3{
+    width: 70%;
+    height: 100%;
+    background: url(Mercedes/full.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ .slide-img4{
+    width: 70%;
+    height: 100%;
+    background: url(R8/dos-puertas.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ #slides .slide_1 {
+    background: #ffffff;
+    color: #000000;
+ }
+ #slides .slide_2 {
+    background: #4b4b4b;
+ }
+ #slides .slide_3 {
+    background: #ffffff;
+    color: #000000;
+ }
+ #slides .slide_4 {
+    background: #ac120d;
+ }
+
+
+ .section-menu-modelo-fixed{
+   background-color: #d8d4cf;
+ }
+ #div-opciones-f{
+   background-color: #d8d4cf;
+ }
+ #div-icon-fixed{
+   background-color: #d8d4cf;
+ }
+ .section-menu-modelo-fixed a{
+   color: #494949;
+ }
+ .parrafo:hover{
+   background-color: #c4c4c4;
+ }

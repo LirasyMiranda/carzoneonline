@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="deportivo.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="alquileres.css">
+<link rel="stylesheet" href="LamborghiniHuracan.css">
+<link rel="stylesheet" href="consulta.css">   <!---CNombre del archivo-->
+<link rel="stylesheet" href="Loading.css">
+<script src="https://kit.fontawesome.com/83480b7348.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="logo-nuevo2.0.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<title>Car Zone</title>
+
+</head>
+
+<body class="hidden">
+
+  
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <img src="logo-nuevo2.0.png" alt="Logo de la página" class="loader-logo">
+    <section class="section-loader" id="onload">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </section>  
+  </div>
+
+
+
+
+
+
+
+
+    <!-- Header mobile -->
+<header class="header-mobile">
+    <a class="aaa" href="deportivo.php">
+      <img class="logo" src="logo-nuevo2.0.png" alt="">
+    </a>
+    <div style="width: 100%;">
+        <i class='bx bx-search' style="color: #ffffff;"></i>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu' id="menu-icon" style='color:#ffffff'></i>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Menu mobile -->
+<ul class="menu">
+    <li><a href="deportivo.php">INFO</a></li>
+    <li><a href="deportivo.php">MODELOS</a></li>
+    <li><a href="deportivo.php">ALQUILER</a></li>
+    <li style="padding-top: 60px"><a href="https://www.instagram.com/politecnicomodelo/?hl=es-la"><i class='bx bxl-instagram'></i></a></li>
+    <li><a href="https://x.com/ipmodelo"><i class='bx bxl-twitter'></i></i></a></li>
+    <li><a href="https://www.youtube.com/@politecnicomodelo/featured"><i class='bx bxl-youtube'></i></i></a></li>
+</ul>
+
+
+    <!-- Header escritorio -->
+    <header>
+        <div class="header-escritorio header-escritorio-modelos">
+                <a class="aaa" href="deportivo.php">
+                  <img class="logo" src="logo-nuevo2.0.png" alt="LogoXD">
+                </a>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                  </div>
+            <div class="header-screen">
+                <li>
+                    <a href="deportivo.php">MODELOS</a>
+                    <a href="deportivo.php">INFO</a>
+                    <a href="deportivo.php">ALQUILER</a>
+                </li>
+            </div>
+            <div class="icons">
+                <a style="color:#ffffff;" href="https://www.google.com/maps/place/Car+Zone/@40.6436943,-74.257946,3a,75y,134.12h,88.81t/data=!3m7!1e1!3m5!1sKJKV2VZfLyFN7lZlggF8iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.193780210206242%26panoid%3DKJKV2VZfLyFN7lZlggF8iw%26yaw%3D134.12484631776755!7i16384!8i8192!4m14!1m7!3m6!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!2sCar+Zone!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq!3m5!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"><i class='bx bx-map'></i></a>
+                <a style="color:#ffffff;" href="tarea_html/index_login.html">
+                    <button class="botonn">
+                        Login
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>     
+    </header>
+    
+    <section class="preguntas-section">
+        <h1>PREGUNTAS FRECUENTES</h1>
+        <div>
+            <span>¿Cuáles son los requisitos para alquilar un auto hiperdeportivo?</span> 
+            <p>
+                Para alquilar un auto hiperdeportivo, generalmente necesitarás ser mayor de 25 años, tener una licencia de conducir válida y una tarjeta de crédito a tu nombre.
+            </p>
+        </div>
+        <div>
+            <span>¿Puedo alquilar un auto por un solo día?</span>
+            <p>
+                Sí, ofrecemos alquileres diarios, así como opciones semanales y mensuales. Consulta nuestra disponibilidad y tarifas para el período que desees.
+            </p>
+        </div>
+        <div>
+            <span>¿Se requiere un depósito de seguridad?</span>
+            <p>
+                Sí, se requiere un depósito de seguridad, que varía según el modelo del auto. Este monto se retendrá en tu tarjeta de crédito y se liberará al devolver el vehículo en las mismas condiciones en que fue recibido.
+            </p>
+        </div>
+        <div>
+            <span>¿Qué pasa si devuelvo el auto tarde?</span>
+            <p>
+                Si no devuelves el vehículo en la fecha y hora acordadas, se aplicarán cargos adicionales por cada hora de retraso. Te recomendamos avisarnos si anticipas un retraso, <a href="https://www.instagram.com/thiagoml43">aquí puedes contactarnos.</a>
+            </p>
+        </div>
+        <div>
+            <span>¿Puedo llevar el auto a un evento o pista de carreras?</span>
+            <p>
+                Los autos hiperdeportivos están diseñados para un rendimiento excepcional, pero no se permite su uso en pistas de carreras o eventos similares sin previa autorización. Consulta con nuestro equipo para más detalles.
+            </p>
+        </div>
+        <div>
+            <span>¿Qué debo hacer si tengo un accidente con el auto?</span>
+            <p>
+                En caso de un accidente, debes informar a la policía y a nuestra oficina de inmediato. También es importante que tomes fotos del incidente y de los documentos involucrados. Te asistiremos con los siguientes pasos.
+            </p>
+        </div>
+        <div>
+            <span>¿Ofrecen servicios de entrega y recogida?</span>
+            <p>
+                Sí, ofrecemos servicios de entrega y recogida a diferentes ubicaciones por un cargo adicional. Consulta con nosotros para coordinar los detalles.
+            </p>
+        </div>
+        <div>
+            <span>
+                Si tienes alguna otra pregunta o necesitas más información, no dudes en escribirnos aquí debajo en la seccion de preguntas personalizadas:
+            </span>
+        </div>
+    </section>
+
+
+    <div id="datos"></div>
+    <section class="section-eleccion">
+        <div class="div-div-eleccion">
+            <div class="div-eleccion">
+                <div class="eleccion modelos">
+                    <h3 style="margin-left: 20px;">Nombre</h3>
+                    <div class="inputs div-amodelos">
+                        <input class="input-eleccion amodelos amodelos-modelos" name="Elige el modelo" id="" placeholder="Ingresá su nombre">
+                    </div>
+                </div>
+                <div class="eleccion entega">
+                    <h3>Teléfono</h3>
+                    <div class="inputs">
+                        <input class="input-eleccion" type="text" name="" id="" placeholder="Ingresá su numero de teléfono">
+                    </div>
+                </div>
+                <div class="eleccion horario hora-devolucion">
+                    <h3>Pregunta personalizada</h3>
+                    <div class="inputs">
+                        <input class="input-eleccion inputs-mobile-fecha select-hora2" type="text" name="" id="" placeholder="Ingresá su pregunta">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="div-enviar">
+                <a href="consulta.php"><button class="enviar">ENVIAR</button></a>
+            </div>
+        </div>
+    </section>
+
+
+
+      
+<!-- Footer -->
+   <footer class="footer">
+    <div class="footer-div1">
+      <div class="footer-div-row">
+
+        <div class="footer-div-links">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="consulta.html">Preguntas</a></li>
+            <li><a href="https://www.instagram.com/thiagoml43">Contactanos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div-links">
+          <h4>Modelos</h4>
+          <ul>
+            <li><a href="VolkswagenGTI.php">Volkswagen gti 2024</a></li>
+            <li><a href="bmwm1.php">BMW 1m 2012</a></li>
+            <li><a href="LamborghiniHuracan.php">Lamborghini Huracan 2020</a></li>
+            <li><a href="audir8.php">Audi R8 2022</a></li>
+            <li><a href="Porsche911.php">Porsche 911 2015</a></li>
+            <li><a href="ferrariSF90.html">Ferrari SF90 2020</a></li>
+            <li><a href="lamborghinirevuelto.php">Lamborghini Revuelto 2024</a></li>
+            <li><a href="ageraone.php">Koenniseg Agera one 2021</a></li>
+            <li><a href="MercedesAMG.php">Mercedes AMG One 2021</a></li>
+            <li><a href="bugatti.php">Bugatti Chiron 2019</a></li>
+            <li><a href="Mclaren.php">Mclaren Senna 2020</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-div-links siguenos">
+          <h4>Síguenos</h4>
+          <div class="footer-social-link">
+            <a href="https://www.ecured.cu/images/2/28/Benjaminlira.jpg" TARGET="_BLANK"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thiagoml43" TARGET="_BLANK"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es" TARGET="_BLANK"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/santiicantale/?hl=es-la" TARGET="_BLANK"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="MODELOS.js"></script>
+  <script src="loading-modelo.js"></script>
+
+
+  
+</body>
+</html>

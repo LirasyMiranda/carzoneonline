@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="deportivo.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="alquileres.css">
+<link rel="stylesheet" href="ferrariSF90.css"> <!---CNombre del archivo-->
+<link rel="stylesheet" href="Loading.css">
+<script src="https://kit.fontawesome.com/83480b7348.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="logo-nuevo2.0.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<title>Car Zone</title>
+
+</head>
+
+<body class="hidden">
+
+  
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <img src="logo-nuevo2.0.png" alt="Logo de la página" class="loader-logo">
+    <section class="section-loader" id="onload">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </section>  
+  </div>
+
+
+
+
+
+
+
+
+    <!-- Header mobile -->
+<header class="header-mobile">
+    <a href="hyperdeportivo.html">
+    <img class="logo" src="logo-nuevo2.0.png" alt="">
+    </a>
+    <div style="width: 100%;">
+        <i class='bx bx-search' style="color: #ffffff;"></i>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu' id="menu-icon" style='color:#ffffff'></i>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Menu mobile -->
+<ul class="menu">
+    <li><a href="hyperdeportivo.html">INFO</a></li>
+    <li><a href="hyperdeportivo.html">MODELOS</a></li>
+    <li><a href="hyperdeportivo.html">ALQUILER</a></li>
+    <li style="padding-top: 60px"><a href="https://www.instagram.com/politecnicomodelo/?hl=es-la"><i class='bx bxl-instagram'></i></a></li>
+    <li><a href="https://x.com/santiicantale"><i class='bx bxl-twitter'></i></i></a></li>
+    <li><a href="https://www.youtube.com/@politecnicomodelo/featured"><i class='bx bxl-youtube'></i></i></a></li>
+</ul>
+
+
+    <!-- Header escritorio -->
+    <header>
+        <div class="header-escritorio header-escritorio-modelos">
+            <a class="aaa" href="hyperdeportivo.html">
+              <img style="width: 120px;" class="logo" src="logo-nuevo2.0.png" alt="LogoXD">
+            </a>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                  </div>
+            <div class="header-screen">
+                <li>
+                    <a href="hyperdeportivo.html">MODELOS</a>
+                    <a href="hyperdeportivo.html">INFO</a>
+                    <a href="hyperdeportivo.html">ALQUILER</a>
+                </li>
+            </div>
+            <div class="icons">
+                <a style="color:#ffffff;" href="https://www.google.com/maps/place/Car+Zone/@40.6436943,-74.257946,3a,75y,134.12h,88.81t/data=!3m7!1e1!3m5!1sKJKV2VZfLyFN7lZlggF8iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.193780210206242%26panoid%3DKJKV2VZfLyFN7lZlggF8iw%26yaw%3D134.12484631776755!7i16384!8i8192!4m14!1m7!3m6!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!2sCar+Zone!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq!3m5!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"><i class='bx bx-map'></i></a>
+                                <a style="color:#ffffff;" href="tarea_html/index_login.html">
+                    <button class="botonn">
+                        Login
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>     
+    </header>
+
+
+    <!-- ESPACIO LIBRE -->
+    <div style="height: 4vh; position: relative; z-index: -10;"></div>
+    <section style="height: 5vh; position: relative; z-index: -10;">
+      <div style="width: 100%;" class="box-para"></div>
+    </section>
+
+
+
+
+    <section class="section-menu-modelo-fixed">
+      <div id="div-icon-fixed">
+        <i style="display: none;" class='bx bx-chevron-right' id="chevron-right" onclick="toggleMenu2()"></i>
+        <i style="display: block;" class='bx bx-chevron-left' id="chevron-left" onclick="toggleMenu2()"></i>
+      </div>
+      <div id="div-opciones-f">
+        <div id="div-opciones-f-2" style="width: 100%;">
+          <section style="width: 100%;">
+
+              <img src="SF90/logo-ferrari.webp" alt="">
+              <h3 style="color: #292929;">Ferrari SF90</h3> <!---CNombre del modelo-->
+          </section>
+          <div>
+              <a style="color: #292929;" onclick="mostrarElemento1()" class="element" href="#opcion1"><p class="par parrafo">Modelo 3d</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a style="color: #292929;" onclick="mostrarElemento2()" class="element" href="#opcion2"><p class="par2 parrafo">Motorización</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a style="color: #292929;" onclick="mostrarElemento3()" class="element" href="#opcion3"><p class="par3 parrafo">Interior</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a style="color: #292929;" onclick="mostrarElemento4()" class="element" href="#opcion4"><p class="par4 parrafo">Exterior</p></a> <!---CNombre de la opcion-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-modelo3d">
+      <section class="section-modelo3d">
+        <iframe id="opcion1" title="Ferrari SF90 Stradale 3D model - Sketchfab" class="c-viewer__iframe" src="https://sketchfab.com/models/c1be631c02af4cbebe95043900043b3b/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+          
+          <div class="caja-delante-3d">
+              <section class="section-abajo">
+                  <div class="div-abajo">
+      
+                  </div>
+              </section>
+          </div>
+      </section>
+    </main>
+
+
+
+    <!-- Caracteristicas -->
+     <div class="espacio-caracteristicas"></div>
+    <main class="caracteristicas">
+
+
+
+        <!-- MOTORIZACION -->
+      <div id="opcion2" class="div-opcion2">
+        <section class="section-1">
+          
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="SF90/ferrari1.jpg">
+            <span style="color: #8296bc;">
+              <span style="font-weight: 600; color: #cc4d82;">Motorizacion</span>
+              <h2 style="color: #000000;" id="opcion2" class="h2-regulares">Las Nuevas Generaciones</h2>
+              <h3 style="color: #000000;" class="section-h3">
+                El Ferrari SF90 es un superdeportivo que representa un hito en la 
+                historia de la marca italiana. Lanzado en 2019, este modelo es el primer Ferrari 
+                híbrido enchufable, combinando un potente motor de combustión interna con un sistema eléctrico 
+                para ofrecer un rendimiento excepcional.
+              </h3> 
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="SF90/ferrari1.jpg" alt="">
+        </section>
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #e70c0c;">Adrenalina</span>
+                <h2 class="h2-regulares">Aceleración</h2>
+                <h3 class="section-h3">
+                    Bajo el capo, podemos encontrar un motor V8 de 4.0 litros que produce alrededor de 780 caballos de fuerza, esto complementado con tres motores electricos los cuales suman otros 220 caballos lo que genera que alcanze hasta 1000 caballos generando una aceleracion de 0-100km/h en 2,5 segundos.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="SF90/ferrari2.jpg" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/ferrari2.jpg" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="SF90/ferrari3.jpg" alt="">
+            <div>
+                <span style="color: #b6b6b6;">Nuevas capacidades</span>
+                <h2 class="h2-regulares">Hibrido</h2>
+                <h3 class="section-h3">
+                    La tecnología híbrida no solo mejora la potencia y la aceleración, permitiendo que el SF90 pase de 0 a 100 km/h en solo 2.5 segundos, sino que también ofrece la opción de conducir en modo completamente eléctrico. Esto significa que, en distancias cortas, el SF90 puede funcionar sin emisiones, lo que representa un avance significativo hacia la sostenibilidad en el mundo de los superdeportivos. Esta combinación de potencia y eficiencia hace del SF90 un modelo pionero en la evolución de Ferrari hacia un futuro más ecológico.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/ferrari3.jpg" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #e70c0c;">Tecnologia</span>
+                <h2 class="h2-regulares">Generadores de vórtice</h2>
+                <h3 class="section-h3">
+                    La fuerza descendente trasera está equilibrada en la parte delantera del automóvil por un sistema complejo y optimizado de generadores de vórtice. Aunque esta no es su primera aparición en un coche deportivo Ferrari, el sistema se ha perfeccionado al máximo en el SF90 Stradale. La sección delantera del chasis se ha elevado 15 mm en comparación con la sección central del chasis en el punto donde los generadores de vórtices están ubicados. Esto incrementa la cantidad de aire que se canaliza hacia ellos y aumenta su efecto.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="SF90/ferrari4.avif" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/ferrari4.avif" alt="">
+          </section>
+
+          <section class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="SF90/ferrari5.jpeg" alt="">
+            <div>
+                <span style="color: #e70c0c;">Control</span>
+                <h2 class="h2-regulares">Ruedas forjadas</h2>
+                <h3 class="section-h3">
+                    Un trabajo de investigación aerodinámica específica se desarrollo sobre la geometría de las llantas de aleación que se producen utilizando una tecnología de construcción que permite una mayor libertad cuando se trata de soluciones aerodinámicas. La geometría específica de las ruedas incorpora elementos radiales en el canal exterior que están igualmente espaciados entre los radios y diseñados para actuar como perfiles de ala. 
+                            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/ferrari5.jpeg" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #e70c0c;">Aerodinamica Pura</span>
+                <h2 class="h2-regulares">Shut-Off Gurney</h2>
+                <h3 class="section-h3">
+                  En términos de diseño, la cubierta del motor del SF90 Stradale se ha mantenido extremadamente baja para mejorar la interacción entre los flujos, sobre y debajo del cuerpo, y así minimizar el arrastre.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="SF90/ferrari6.webp" alt="">
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/ferrari6.webp" alt="">
+          </section>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+      <!-- INTERIOR -->
+      <div id="opcion3" class="div-opcion3">
+          <h1 id="h1-opcion3">Interior</h1>
+          <section class="section-1">  
+            <img class="img-deportivos-escritorio" src="SF90/interior1.jfif" alt=""> <!--CIMAGEN-->
+            <div>
+                <span style="color: #cac711;">Orientado al conductor</span> <!--COLOR-->
+                <h2 class="h2-regulares">General</h2>
+                <h3 class="section-h3">
+                  Mientras que el exterior del Ferrari SF90 fue diseñado para resaltar su combinacion perfecta de forma, tecnologia y rendimiento, el interior es aun mas radical. El objetivo
+                  muy explicito era crear una cabina de pilotaje que introdujera una direccion de diseño completamente nueva, cuyos efectos se trasladarian a toda la gama futura de Ferrari.
+                </h3>
+            </div>  
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/interior1.jfif" alt="">
+          </section>
+
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">   
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #a6351d;">Pruebalos</span> <!--COLOR-->
+                <h2 class="h2-regulares">Manos al volante</h2>
+                <h3 class="section-h3">
+                  Los diseñadores adoptaron un lenguaje futurista del concepto de interfaz con un fuerte enfoque en la creacion de una cabina envolvente de inspiracion aeronautica con especiaal enfasis en la instrumentacion.
+                  Esto destaco y subrayo aun mas la relacion simbiotica entre el automovil y el conductor. De hecho, el Ferrari SF90 simboliza un cambio de epoca, tanto en terminos formales como de ocntenido, actualizando la interfaz Hombre-Maquina con tecnologia completamente digital.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="SF90/interior2.jpg" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/interior2.jpg" alt=""><!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="SF90/interior3.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #cac711;">Elegante y espacioso</span> <!--COLOR-->
+                <h2 class="h2-regulares">Caja de cambios</h2>
+                <h3 class="section-h3">
+                  Potencia y precisión en cada cambio. Su avanzada transmisión de doble embrague de 8 velocidades permite cambios instantáneos, mientras que la integración con su sistema híbrido maximiza la eficiencia y la tracción. Experimenta la fusión perfecta entre tecnología y rendimiento en cada curva.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/interior3.webp" alt=""> <!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #62a126;">Sin compromisos</span> <!--COLOR-->
+                <h2 class="h2-regulares">Sistema de suspensión</h2>
+                <h3 class="section-h3">
+                  El futuro de la suspensión adaptativa. Equipado con un sistema que ajusta la firmeza en tiempo real, el SF90 garantiza un manejo excepcional en cada situación. Con una combinación perfecta de confort y rendimiento, cada curva se toma con confianza, brindando una experiencia de conducción emocionante y precisa. La tecnología avanzada de la suspensión transforma cada recorrido en una obra maestra de ingeniería.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="SF90/interior4.jpg" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/interior4.jpg" alt=""> <!--Cimagen-->
+          </section>
+
+          <section class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="SF90/interior5.jpg" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #740c0c;">Comodidad</span> <!--COLOR-->
+                <h2 class="h2-regulares">Asientos Premium</h2>
+                <h3 class="section-h3">
+                  Asientos deportivos que combinan lujo y ergonomía. Diseñados para ofrecer un soporte óptimo en cada curva, estos asientos ajustables brindan comodidad y estilo sin sacrificar el rendimiento. Con materiales de alta calidad y un diseño envolvente, cada viaje se convierte en una experiencia excepcional, fusionando elegancia y dinamismo.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="SF90/interior5.jpg" alt=""> <!--Cimagen-->
+          </section>
+        </div>
+
+
+        
+
+
+        
+      </div>
+
+
+
+
+
+
+
+        <!-- Exterior -->
+      <div id="opcion4" class="div-opcion3">
+        <h1 id="h1-opcion3">Exterior</h1> 
+        <section class="section-1">  
+          <img class="img-deportivos-escritorio" src="SF90/exterior1.jfif" alt="">
+          <div>
+              <span style="color: #b50000;">El gran rojo</span>
+              <h2 style="color: #000000;" class="h2-regulares">General</h2>
+              <h3 style="color: #000000;" class="section-h3">
+                Una obra maestra de diseño y aerodinámica. Su silueta agresiva y líneas fluidas no solo cautivan a la vista, sino que también optimizan el rendimiento. Con un frontal imponente y luces LED distintivas, cada detalle ha sido meticulosamente diseñado para maximizar la eficiencia aerodinámica. El uso de materiales ligeros y la integración de elementos funcionales como difusores y alerones subrayan su enfoque en la velocidad y la innovación. El SF90 no solo es un superdeportivo; es una declaración de intenciones en cada kilómetro.
+              </h3>
+          </div>  
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="SF90/exterior1.jfif" alt="">
+        </section>
+
+
+      <div>
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #c4482c;">Compacto</span>
+              <h2 class="h2-regulares">Diseño</h2>
+              <h3 class="section-h3">
+                Donde la estética se encuentra con la funcionalidad. Su diseño icónico combina líneas agresivas y elegantes, reflejando una herencia deportiva mientras se adapta a la modernidad. El uso estratégico de materiales ligeros y la aerodinámica optimizada no solo mejoran el rendimiento, sino que también crean una presencia poderosa en la carretera. Elementos como la parrilla frontal distintiva y los faros LED afilados añaden carácter, mientras que la forma del coche, inspirada en la velocidad, promete una experiencia de conducción emocionante. El SF90 es una manifestación perfecta del arte automotriz.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="SF90/exterior2.jpg" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="SF90/exterior2.jpg" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="SF90/exterior3.jpg" alt="">
+          <div>
+              <span style="color: #be4226;">Elegante</span>
+              <h2 class="h2-regulares">Aleron Desplegable</h2>
+              <h3 class="section-h3">
+                El alerón despegable que redefine la aerodinámica. Activa a altas velocidades, proporciona carga y estabilidad en curvas, mejorando la adherencia al asfalto. Su diseño elegante complementa la estética agresiva del SF90, combinando tecnología avanzada con un estilo inconfundible.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="SF90/exterior3.jpg" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #b93d21;">La fachada</span>
+              <h2 class="h2-regulares">Frontal</h2>
+              <h3 class="section-h3">
+                La parte frontal imponente que irradia agresividad y elegancia. Con una parrilla distintiva y faros LED afilados, cada línea está diseñada para optimizar la aerodinámica y mejorar el rendimiento. Su diseño audaz no solo captura miradas, sino que también refleja la herencia deportiva de Ferrari, prometiendo potencia y precisión en cada curva.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="SF90/exterior4.jpg" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="SF90/exterior4.jpg" alt="">
+        </section>
+
+        <section class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="SF90/exterior5.webp" alt="">
+          <div>
+              <span style="color: #ce2014;">Luminocidad plena</span>
+              <h2 class="h2-regulares">Luces</h2>
+              <h3 class="section-h3">
+                Luces LED que combinan estilo y funcionalidad. Su diseño afilado ofrece visibilidad excepcional y acentúa la agresividad del frontal, creando una firma luminosa que destaca la identidad del SF90 en cada kilómetro.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="SF90/exterior5.webp" alt="">
+        </section>
+
+        <section class="section-galeria">
+          <div class="galeria-de-imagenes">
+            <div class="fila1">
+              <img class="fto1" src="SF90/exterior2.jpg" alt="">
+              <img class="fto2" src="SF90/ferrari1.jpg" alt="">
+              <img class="fto3" src="SF90/interior3.webp" alt="">
+            </div>
+            <div class="fila2">
+              <div class="div1-fila2">
+                <img class="fto4" src="SF90/exterior5.webp" alt="">
+                <h1 style="margin-left: 100px;">La Locura</h1>
+              </div>
+              <div class="div2-fila2">
+                <img class="fto5" src="SF90/galeria1.jfif" alt="">
+              </div>
+            </div>
+            <h1>De Las nuevas tecnologias</h1>
+          </div>
+        </section>
+
+
+
+
+        
+      </div>
+      
+
+
+      
+    </div>
+
+    </main>
+
+
+
+
+
+      
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-div1">
+    <div class="footer-div-row">
+
+      <div class="footer-div-links">
+        <h4>Ayuda</h4>
+        <ul>
+          <li><a href="consulta.html">Preguntas</a></li>
+          <li><a href="https://www.instagram.com/thiagoml43">Contactanos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-div-links">
+        <h4>Modelos</h4>
+        <ul>
+          <li><a href="VolkswagenGTI.html">Volkswagen gti 2024</a></li>
+          <li><a href="BmwM1.html">BMW 1m 2012</a></li>
+          <li><a href="LamborghiniHuracan.html">Lamborghini Huracan 2020</a></li>
+          <li><a href="AudiR8.html">Audi R8 2022</a></li>
+          <li><a href="Porsche911.html">Porsche 911 2015</a></li>
+          <li><a href="ferrariSF90.html">Ferrari SF90 2020</a></li>
+          <li><a href="LamborghiniRevuelto.html">Lamborghini Revuelto 2024</a></li>
+          <li><a href="Ageraone.html">Koenniseg Agera one 2021</a></li>
+          <li><a href="MercedesAMG.html">Mercedes AMG One 2021</a></li>
+          <li><a href="Bugatti.html">Bugatti Chiron 2019</a></li>
+          <li><a href="Mclaren.html">Mclaren Senna 2020</a></li>
+      </ul>
+      </div>
+
+      <div class="footer-div-links siguenos">
+        <h4>Síguenos</h4>
+        <div class="footer-social-link">
+          <a href="https://www.ecured.cu/images/2/28/Benjaminlira.jpg" TARGET="_BLANK"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/thiagoml43" TARGET="_BLANK"><i class="fab fa-instagram"></i></a>
+          <a href="https://twitter.com/?lang=es" TARGET="_BLANK"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/santiicantale/?hl=es-la" TARGET="_BLANK"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+  <script src="MODELOS.js"></script>
+  <script src="loading-modelo.js"></script>
+
+
+  
+</body>
+</html>
