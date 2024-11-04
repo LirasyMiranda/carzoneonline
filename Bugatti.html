@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="deportivo.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="alquileres.css">
+<link rel="stylesheet" href="LamborghiniHuracan.css"> 
+<link rel="stylesheet" href="Bugatti.css"><!---CNombre del archivo-->
+<link rel="stylesheet" href="Loading.css">
+<script src="https://kit.fontawesome.com/83480b7348.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="logo-nuevo2.0.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<title>Car Zone</title>
+
+</head>
+
+<body class="hidden">
+
+  
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <img src="logo-nuevo2.0.png" alt="Logo de la página" class="loader-logo">
+    <section class="section-loader" id="onload">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </section>  
+  </div>
+
+
+
+
+
+
+
+
+    <!-- Header mobile -->
+<header class="header-mobile">
+    <a class="aaa" href="hyperdeportivo.html">
+      <img class="logo" src="logo-nuevo2.0.png" alt="">
+    </a>
+    <div style="width: 100%;">
+        <i class='bx bx-search' style="color: #000000dd;"></i>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu' id="menu-icon" style='color:#000000dd'></i>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Menu mobile -->
+<ul class="menu">
+    <li><a href="hyperdeportivo.html">INFO</a></li>
+    <li><a href="hyperdeportivo.html">MODELOS</a></li>
+    <li><a href="hyperdeportivo.html">ALQUILER</a></li>
+    <li style="padding-top: 60px"><a href="https://www.instagram.com/politecnicomodelo/?hl=es-la"><i class='bx bxl-instagram'></i></a></li>
+    <li><a href="https://x.com/santiicantale"><i class='bx bxl-twitter'></i></i></a></li>
+    <li><a href="https://www.youtube.com/@politecnicomodelo/featured"><i class='bx bxl-youtube'></i></i></a></li>
+</ul>
+
+
+    <!-- Header escritorio -->
+    <header>
+        <div class="header-escritorio header-escritorio-modelos">
+                <a class="aaa" href="hyperdeportivo.html">
+                  <img class="logo" src="logo-nuevo2.0.png" alt="LogoXD">
+                </a>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                  </div>
+            <div class="header-screen">
+                <li>
+                    <a href="hyperdeportivo.html">MODELOS</a>
+                    <a href="hyperdeportivo.html">INFO</a>
+                    <a href="hyperdeportivo.html">ALQUILER</a>
+                </li>
+            </div>
+            <div class="icons">
+                <a style="color:#000000;" href="https://www.google.com/maps/place/Car+Zone/@40.6436943,-74.257946,3a,75y,134.12h,88.81t/data=!3m7!1e1!3m5!1sKJKV2VZfLyFN7lZlggF8iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.193780210206242%26panoid%3DKJKV2VZfLyFN7lZlggF8iw%26yaw%3D134.12484631776755!7i16384!8i8192!4m14!1m7!3m6!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!2sCar+Zone!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq!3m5!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"><i class='bx bx-map'></i></a>
+                <a style="color:#000000;" href="tarea_html/index_login.html"><i class='bx bx-group'></i></a>
+            </div>
+        </div>     
+    </header>
+
+
+    <!-- ESPACIO LIBRE -->
+    <div style="height: 4vh; position: relative; z-index: -10;"></div>
+    <section style="height: 5vh; position: relative; z-index: -10;">
+      <div style="width: 100%;" class="box-para"></div>
+    </section>
+
+
+
+
+    <section id="nashee" class="section-menu-modelo-fixed">
+      <div id="div-icon-fixed">
+        <i style="display: none;" class='bx bx-chevron-right' id="chevron-right" onclick="toggleMenu2()"></i>
+        <i style="display: block;" class='bx bx-chevron-left' id="chevron-left" onclick="toggleMenu2()"></i>
+      </div>
+      <div id="div-opciones-f">
+        <div id="div-opciones-f-2" style="width: 100%;">
+          <section style="width: 100%;">
+
+              <img src="Bugatti/logo.png" alt="">
+              <h3>Bugatti Chiron 2019</h3> <!---CNombre del modelo-->
+          </section>
+          <div>
+              <a onclick="mostrarElemento1()" class="element" href="#opcion1"><p class="par parrafo">Modelo 3d</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento2()" class="element" href="#opcion2"><p class="par2 parrafo">Motorización</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento3()" class="element" href="#opcion3"><p class="par3 parrafo">Interior</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento4()" class="element" href="#opcion4"><p class="par4 parrafo">Exterior</p></a> <!---CNombre de la opcion-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-modelo3d">
+      <section class="section-modelo3d">
+        <iframe id="opcion1" title="Bugatti Chiron Sport 2019 3D model - Sketchfab" class="c-viewer__iframe" src="https://sketchfab.com/models/04c5e3cad9bb49509fa44f16dbee24d8/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+          
+          <div class="caja-delante-3d">
+              <section class="section-abajo">
+                  <div class="div-abajo">
+      
+                  </div>
+              </section>
+          </div>
+      </section>
+    </main>
+
+
+
+    <!-- Caracteristicas -->
+    <div class="espacio-caracteristicas"></div>
+    <div class="caja-antes-de-carac"></div>
+    <main class="caracteristicas">
+
+
+
+        <!-- MOTORIZACION -->
+      <div id="opcion2" class="div-opcion2">
+        <section class="section-1">
+          
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Bugatti/aaa.jpg">
+            <span style="color: #b1b1b1;">
+              <span style="font-weight: 600; color: #b8b8b8;">Motorizacion</span>
+              <h2 id="opcion2" class="h2-regulares color2">Especificaciones técnicas</h2>
+              <h3 class="section-h3 color3">
+                Rendimiento increíble, llevado directamente a la carretera. El Mercedes-AMG ONE es conducción deportiva en estado puro. Con una aceleración de 0 a 200 km/h en 7,0 segundos o de 0 a 300 km/h en 15,6 segundos, este hipercoche marca el rumbo: la velocidad máxima regulada electrónicamente de 352 km/h. Cifras impresionantes que se hacen aún más potentes gracias a los programas de piloto para el circuito extraídos de la Fórmula 1. En el programa Strat 2, la aerodinámica activa, el ajuste más preciso del chasis, la reducción de la altura del vehículo y el rendimiento completo de todos sus motores funcionan igual que en la clasificación de Fórmula 1. Nunca ha habido nada igual. Pero ahora siempre estará ahí. 
+              </h3> 
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Bugatti/aaa.jpg" alt="">
+        </section>
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Bugatti/motor.webp" alt="">
+            <div>
+                <span style="color: #d34623;">Impulso infinito</span>
+                <h2 class="h2-regulares color2">Motor</h2>
+                <h3 class="section-h3 color3">
+                  mpulsado por un motor W16 quad-turbo de 8.0 litros, que genera una impresionante potencia de 1,479 caballos de fuerza y 1,600 Nm de torque. Este motor permite al Chiron alcanzar una velocidad máxima limitada electrónicamente de 420 km/h, con una aceleración de 0 a 100 km/h en menos de 2.5 segundos. La configuración W16 consiste en cuatro bancos de cilindros dispuestos en una configuración de 90 grados, lo que proporciona un equilibrio perfecto entre rendimiento y estabilidad. 
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Bugatti/motor.webp" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Mercedes/suspension.jpeg" alt="">
+            <div>
+                <span style="color: #c0a21b;">Chiron</span>
+                <h2 class="h2-regulares color2">Suspensiones</h2>
+                <h3 class="section-h3 color3">
+                  La suspensión delantera es de tipo doble horquilla (doble wishbone), mientras que en la parte trasera también utiliza una configuración de doble horquilla, lo que permite un control preciso y una mayor estabilidad en curvas a altas velocidades. El sistema es totalmente ajustable, adaptándose a las diferentes condiciones de manejo a través de modos seleccionables, como el de confort, deportivo y el modo de manejo máximo para pista.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Mercedes/suspension.jpeg" alt="">
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <img class="img-deportivos-escritorio" src="Mercedes/cambios.jpg" alt="">
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #b3b3b3;">A tu gusto</span>
+                <h2 class="h2-regulares color2">5 modos de conduccion</h2>
+                <h3 class="section-h3 color3">
+                  El Bugatti Chiron tiene cinco modos de conducción: <br>
+
+                  EB Auto: Equilibra confort y rendimiento automáticamente. <br>
+                  Autobahn: Optimiza la estabilidad a altas velocidades en autopistas. <br>
+                  Handling: Endurece la suspensión y mejora la agilidad para conducción deportiva. <br>
+                  Lift: Eleva el coche para sortear obstáculos a bajas velocidades. <br>
+                  Top Speed: Desbloquea la velocidad máxima de 420 km/h con ajustes de suspensión y aerodinámica. <br>
+                  Cada modo adapta el Chiron a distintas condiciones, desde manejo diario hasta rendimiento extremo. <br>
+                </h3>
+            </div>
+            
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Mercedes/cambios.jpg" alt="">
+          </section>
+
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+      <!-- INTERIOR -->
+      <div id="opcion3" class="div-opcion3">
+          <h1 id="h1-opcion3">Interior</h1>
+          <section class="section-1">  
+            <img class="img-deportivos-escritorio" src="Bugatti/general.jpg" alt=""> <!--CIMAGEN-->
+            <div>
+                <span style="color: #0f7080;">El futuro es hoy</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Interno</h2>
+                <h3 class="section-h3 color3">
+                  El interior del Bugatti Chiron es muy sencillo, minimalista, sin dejar a un lado una calidad de terminación al máximo nivel. La consola central sólo agrupa los controles de climatización, en una fina barra de fibra de carbono, junto a una palanca de cambios convencional. La instrumentación del Bugatti Chiron es sencilla, con un velocímetro analógico en posición central, cuya escala llega hasta los 500 km/h.
+                </h3>
+            </div>  
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Bugatti/general.jpg" alt="">
+          </section>
+
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">   
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #0f7080;">Poderosa</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Desbloquear la bestia</h2>
+                <h3 class="section-h3 color3">
+                  Las llaves naranjas del Bugatti Chiron son mucho más que un simple accesorio. Son el símbolo del dominio absoluto sobre una máquina de velocidad y lujo inigualables. Estas llaves tienen el poder de desatar los 1.500 caballos de fuerza del motor, desbloqueando la capacidad de alcanzar velocidades extremas con precisión y elegancia. Con solo girarlas, activas no solo el motor, sino una experiencia de conducción diseñada para quienes buscan lo extraordinario. Sostenerlas es asumir el control de una obra maestra automovilística, donde el diseño, la ingeniería y la pasión por la velocidad convergen en la perfección.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Bugatti/llaves.webp" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Bugatti/llaves.webp" alt=""><!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Bugatti/volante.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #0f7080;">Amplio</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Volante</h2>
+                <h3 class="section-h3 color3">
+                  Es mucho más que una herramienta de conducción; es el vínculo entre el conductor y la potencia inigualable de este hiperdeportivo. Recubierto de los materiales más finos y diseñado con precisión ergonómica, cada detalle está pensado para ofrecer un control absoluto a altas velocidades. Con botones integrados para gestionar múltiples funciones sin apartar las manos, el volante se convierte en el centro de comando del Chiron, ofreciendo tanto una experiencia de confort como de rendimiento. Agarrarlo significa conectar directamente con la esencia del vehículo: lujo, potencia y la promesa de una conducción sin límites.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Bugatti/volante.webp" alt=""> <!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #316206;">Minimalista</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Material</h2>
+                <h3 class="section-h3 color3">
+                  El interior del Bugatti Chiron es un santuario de lujo y exclusividad, donde el cuero naranja se destaca como una declaración audaz de elegancia y personalidad. Este cuero, cuidadosamente seleccionado y trabajado a mano, recubre los asientos, el volante y detalles en las puertas, brindando una experiencia sensorial de suavidad y refinamiento. La tonalidad naranja no solo aporta un toque vibrante y distintivo, sino que también resalta la perfecta combinación entre tradición y modernidad.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Bugatti/interior.jpg" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Bugatti/interior.jpg" alt=""> <!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Bugatti/tablero.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #0285cd;">Única</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Tablero</h2>
+                <h3 class="section-h3 color3">
+                  Detrás del volante, las pantallas digitales de alta resolución ofrecen toda la información esencial, desde la telemetría del motor hasta el estado de los sistemas del coche, presentados de manera clara y precisa. La consola central es esbelta y minimalista, eliminando cualquier distracción innecesaria y enfocándose en lo esencial para el piloto.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Bugatti/tablero.webp" alt=""> <!--Cimagen-->
+          </section>
+        </div>
+
+              
+
+
+        
+      </div>
+
+
+
+
+
+
+
+        <!-- Exterior -->
+      <div id="opcion4" class="div-opcion3">
+        <h1 id="h1-opcion3">Exterior</h1> 
+
+        <section class="section-galeria">
+          <div class="galeria-de-imagenes">
+            <div class="fila1">
+              <img class="fto1" src="Bugatti/frontal.jpg" alt="">
+              <img class="fto2" src="Bugatti/perfil.jpg" alt="">
+              <img class="fto3" src="Bugatti/Bugatti-detras.jpg" alt="">
+            </div>
+            <div class="fila2">
+              <div class="div1-fila2">
+                <img class="fto4" src="Bugatti/nashe.jpg" alt="">
+                <h1 style="margin-left: 100px; color: #ffffff;">Velocidad</h1>
+              </div>
+              <div class="div2-fila2">
+                <img class="fto5" src="Bugatti/cola.jpg" alt="">
+              </div>
+            </div>
+            <h1 style="color: #ffffff;">y pasión, lujo en cada ocasión.</h1>
+          </div>
+        </section>
+
+
+
+
+        
+      </div>
+      
+
+
+      
+    </div>
+
+    </main>
+
+
+
+
+
+      
+<!-- Footer -->
+   <footer class="footer">
+    <div class="footer-div1">
+      <div class="footer-div-row">
+
+        <div class="footer-div-links">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="consulta.html">Preguntas</a></li>
+            <li><a href="https://www.instagram.com/thiagoml43">Contactanos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div-links">
+          <h4>Modelos</h4>
+          <ul>
+            <li><a href="VolkswagenGTI.html">Volkswagen gti 2024</a></li>
+            <li><a href="BmwM1.html">BMW 1m 2012</a></li>
+            <li><a href="LamborghiniHuracan.html">Lamborghini Huracan 2020</a></li>
+            <li><a href="AudiR8.html">Audi R8 2022</a></li>
+            <li><a href="Porsche911.html">Porsche 911 2015</a></li>
+            <li><a href="ferrariSF90.html">Ferrari SF90 2020</a></li>
+            <li><a href="LamborghiniRevuelto.html">Lamborghini Revuelto 2024</a></li>
+            <li><a href="Ageraone.html">Koenniseg Agera one 2021</a></li>
+            <li><a href="MercedesAMG.html">Mercedes AMG One 2021</a></li>
+            <li><a href="Bugatti.html">Bugatti Chiron 2019</a></li>
+            <li><a href="Mclaren.html">Mclaren Senna 2020</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-div-links siguenos">
+          <h4>Síguenos</h4>
+          <div class="footer-social-link">
+            <a href="https://www.ecured.cu/images/2/28/Benjaminlira.jpg" TARGET="_BLANK"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thiagoml43" TARGET="_BLANK"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es" TARGET="_BLANK"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/santiicantale/?hl=es-la" TARGET="_BLANK"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="MODELOS.js"></script>
+  <script src="loading-modelo.js"></script>
+
+
+  
+</body>
+</html>

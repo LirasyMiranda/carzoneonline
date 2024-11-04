@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">    
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="deportivo.css">
+<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="alquileres.css">
+<link rel="stylesheet" href="LamborghiniHuracan.css">
+<link rel="stylesheet" href="Ageraone.css">   <!---CNombre del archivo-->
+<link rel="stylesheet" href="Loading.css">
+<script src="https://kit.fontawesome.com/83480b7348.js" crossorigin="anonymous"></script>
+<link rel="shortcut icon" href="logo-nuevo2.0.png" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<title>Car Zone</title>
+
+</head>
+
+<body class="hidden">
+
+  
+  <!-- LOADING -->
+  <div id="loader" class="loader">
+    <img src="logo-nuevo2.0.png" alt="Logo de la página" class="loader-logo">
+    <section class="section-loader" id="onload">
+      <div class="spinner">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      </section>  
+  </div>
+
+
+
+
+
+
+
+
+    <!-- Header mobile -->
+<header class="header-mobile">
+    <a class="aaa" href="hyperdeportivo.html">
+      <img class="logo" src="logo-nuevo2.0.png" alt="">
+    </a>
+    <div style="width: 100%;">
+        <i class='bx bx-search' style="color: #ffffff;"></i>
+        <div class="menu-icon" onclick="toggleMenu()">
+            <i class='bx bx-menu' id="menu-icon" style='color:#ffffff'></i>
+        </div>
+    </div>
+</header>
+
+
+    <!-- Menu mobile -->
+<ul class="menu">
+    <li><a href="hyperdeportivo.html">INFO</a></li>
+    <li><a href="hyperdeportivo.html">MODELOS</a></li>
+    <li><a href="hyperdeportivo.html">ALQUILER</a></li>
+    <li style="padding-top: 60px"><a href="https://www.instagram.com/politecnicomodelo/?hl=es-la"><i class='bx bxl-instagram'></i></a></li>
+    <li><a href="https://x.com/santiicantale"><i class='bx bxl-twitter'></i></i></a></li>
+    <li><a href="https://www.youtube.com/@politecnicomodelo/featured"><i class='bx bxl-youtube'></i></i></a></li>
+</ul>
+
+
+    <!-- Header escritorio -->
+    <header>
+        <div class="header-escritorio header-escritorio-modelos">
+                <a class="aaa" href="hyperdeportivo.html">
+                  <img class="logo" src="logo-nuevo2.0.png" alt="LogoXD">
+                </a>
+                <div class="group">
+                    <svg class="icon" aria-hidden="true" viewBox="0 0 24 24"><g><path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path></g></svg>
+                    <input placeholder="Search" type="search" class="input">
+                  </div>
+            <div class="header-screen">
+                <li>
+                    <a href="hyperdeportivo.html">MODELOS</a>
+                    <a href="hyperdeportivo.html">INFO</a>
+                    <a href="hyperdeportivo.html">ALQUILER</a>
+                </li>
+            </div>
+            <div class="icons">
+                <a style="color:#ffffff;" href="https://www.google.com/maps/place/Car+Zone/@40.6436943,-74.257946,3a,75y,134.12h,88.81t/data=!3m7!1e1!3m5!1sKJKV2VZfLyFN7lZlggF8iw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D1.193780210206242%26panoid%3DKJKV2VZfLyFN7lZlggF8iw%26yaw%3D134.12484631776755!7i16384!8i8192!4m14!1m7!3m6!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!2sCar+Zone!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq!3m5!1s0x89c3b3806ed6c07d:0xdd0b3929d55856e5!8m2!3d40.6434571!4d-74.2577234!16s%2Fg%2F11qpwr7tlq?coh=205410&entry=ttu&g_ep=EgoyMDI0MDgyOC4wIKXMDSoASAFQAw%3D%3D"><i class='bx bx-map'></i></a>
+                                <a style="color:#ffffff;" href="tarea_html/index_login.html">
+                    <button class="botonn">
+                        Login
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                    </button>
+                </a>
+            </div>
+        </div>     
+    </header>
+
+
+    <!-- ESPACIO LIBRE -->
+    <div style="height: 4vh; position: relative; z-index: -10;"></div>
+    <section style="height: 5vh; position: relative; z-index: -10;">
+      <div style="width: 100%;" class="box-para"></div>
+    </section>
+
+
+
+
+    <section id="nashee" class="section-menu-modelo-fixed">
+      <div id="div-icon-fixed">
+        <i style="display: none;" class='bx bx-chevron-right' id="chevron-right" onclick="toggleMenu2()"></i>
+        <i style="display: block;" class='bx bx-chevron-left' id="chevron-left" onclick="toggleMenu2()"></i>
+      </div>
+      <div id="div-opciones-f">
+        <div id="div-opciones-f-2" style="width: 100%;">
+          <section style="width: 100%;">
+
+              <img src="Agera/logo.png" alt="">
+              <h3>Agera One 2021</h3> <!---CNombre del modelo-->
+          </section>
+          <div>
+              <a onclick="mostrarElemento1()" class="element" href="#opcion1"><p class="par parrafo">Modelo 3d</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento2()" class="element" href="#opcion2"><p class="par2 parrafo">Motorización</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento3()" class="element" href="#opcion3"><p class="par3 parrafo">Interior</p></a> <!---CNombre de la opcion-->
+          </div>
+          <div>
+              <a onclick="mostrarElemento4()" class="element" href="#opcion4"><p class="par4 parrafo">Exterior</p></a> <!---CNombre de la opcion-->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <main class="main-modelo3d">
+      <section class="section-modelo3d">
+        <iframe id="opcion1" title="Koenigsegg One Pro 3D model - Sketchfab" class="c-viewer__iframe" src="https://sketchfab.com/models/26d50f742f3241f5a36081d93205c764/embed?autostart=1&amp;internal=1&amp;tracking=0&amp;ui_infos=0&amp;ui_snapshots=1&amp;ui_stop=0&amp;ui_theatre=1&amp;ui_watermark=0" id="api-frame" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking="true" execution-while-out-of-viewport="true" execution-while-not-rendered="true" web-share="true" allowfullscreen=""></iframe>
+          <div class="caja-delante-3d">
+              <section class="section-abajo">
+                  <div class="div-abajo">
+      
+                  </div>
+              </section>
+          </div>
+      </section>
+    </main>
+
+
+
+    <!-- Caracteristicas -->
+    <div class="espacio-caracteristicas"></div>
+    <main class="caracteristicas">
+
+
+
+        <!-- MOTORIZACION -->
+      <div id="opcion2" class="div-opcion2">
+        <section class="section-1">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Agera/motorizacion.jpg" alt="">
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Agera/motorizacion.jpg">
+            <span style="color: #bb621d;">
+              <span style="font-weight: 600; color: #bd2424;">Motorizacion</span>
+              <h2 id="opcion2" class="h2-regulares color2">Especificaciones técnicas</h2>
+              <h3 class="section-h3 color3">
+                Grandes rejillas de ventilación para una mejor refrigeración,
+                Toma de aire en el techo para soportar los 1 MW de
+                Potencia, límite de revoluciones de 8250 RPM, mejorado
+                Suspensión trasera Triplex con fibra de carbono
+                Muelles cónicos y amortiguadores activos.
+                Amortiguadores y altura de manejo, combinados
+                con Koenigsegg Aircore mejorado
+                Ruedas de fibra de carbono.
+              </h3> 
+          
+        </section>
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1 motorr">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio motorr" src="Agera/motor.jpg">
+            <div>
+                <span style="color: #dddddd;">Potencia pura</span>
+                <h2 class="h2-regulares color2">Motor detallado</h2>
+                <h3 class="motorr-h3 color3">
+                  En el corazón de este superdeportivo se encuentra un motor V8 biturbo de 5.0 litros, que combina potencia y eficiencia en una configuración única.
+                </h3>
+
+                <h2 class="h2-subtituloss color2">Motor V8 Biturbo</h2>
+                <h3 class="section-h3 color3">
+                  <span class="motor-subtitulos">Potencia y Torque:</span> El motor produce alrededor de 1,341 caballos de fuerza y un torque de 1,371 Nm, lo que permite una aceleración explosiva y una velocidad máxima que desafía los límites. Esta potencia se logra gracias a la tecnología de doble turboalimentación, que maximiza la eficiencia de la combustión y minimiza el retraso del turbo.
+                </h3>
+                <br>
+                <h3 class="section-h3 color3">
+                  <span class="motor-subtitulos">Tecnología de Inyección:</span> Equipado con un sistema de inyección directa y una gestión electrónica avanzada, el motor garantiza una respuesta rápida y un control preciso del combustible, optimizando el rendimiento en todas las condiciones de conducción.
+                </h3>
+                <br>
+                <h3 class="section-h3 color3">
+                  <span class="motor-subtitulos">Materiales Avanzados:</span> La construcción del motor utiliza materiales ligeros y resistentes, como el aluminio y la fibra de carbono, lo que reduce el peso total y mejora la relación potencia-peso del vehículo.
+                </h3>
+            </div>
+            <div>
+              <h2 class="h2-subtituloss color2">Transmisión y Sistema de Escape</h2>
+              <br>
+              <h3 class="section-h3 color3">
+                <span class="motor-subtitulos">Transmisión:</span> La Agera One está equipada con una transmisión automática de doble embrague (DCT) de 7 velocidades, que permite cambios de marcha rápidos y suaves, maximizando la entrega de potencia y la eficiencia del motor.
+              </h3>
+              <br>
+              <h3 class="section-h3 color3">
+                <span class="motor-subtitulos">Sistema de Escape:</span> El sistema de escape es igualmente impresionante, diseñado para maximizar el flujo de gases y minimizar la restricción. Con salidas dobles centradas, no solo mejora la estética, sino que también proporciona un rugido agresivo que resuena con la esencia de un verdadero superdeportivo.
+              </h3>
+            </div>
+            <div>
+              <h2 class="h2-subtituloss color2">Innovaciones</h2>
+              <br>
+              <h3 class="section-h3 color3">
+                <span class="motor-subtitulos">Sistema de Refrigeración:</span> El Agera One incorpora un sistema de refrigeración avanzado que asegura que el motor funcione a temperaturas óptimas, incluso en condiciones extremas. Esto incluye radiadores de gran tamaño y conductos de aire diseñados para maximizar el flujo de aire hacia el motor.
+              </h3>
+              <br>
+              <h3 class="section-h3 color3">
+                <span class="motor-subtitulos">Eficiencia y Emisiones:</span> A pesar de su increíble potencia, el Agera One también ha sido diseñado con un enfoque en la eficiencia, cumpliendo con estándares de emisiones rigurosos, lo que demuestra el compromiso de Koenigsegg con la sostenibilidad sin comprometer el rendimiento.
+              </h3>
+            </div>
+          </section>
+        </div>
+        
+      </div>
+
+
+
+
+
+
+
+
+      <!-- INTERIOR -->
+      <div id="opcion3" class="div-opcion3">
+          <h1 id="h1-opcion3">Interior</h1>
+          <section class="section-1">  
+            <img class="img-deportivos-escritorio" src="Agera/general-int.jpg" alt=""> <!--CIMAGEN-->
+            <div>
+                <span style="color: #bb621d;">Comidad/exclusividad</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Interno</h2>
+                <h3 class="section-h3 color3">
+                  Al ingresar, te recibe un habitáculo minimalista pero sofisticado, donde cada detalle está enfocado en el conductor. Los asientos, tapizados en cuero premium y Alcantara, están moldeados ergonómicamente para proporcionar soporte en curvas a altas velocidades, mientras que la fibra de carbono adorna el tablero y las puertas, recordando constantemente el enfoque en la ligereza y el rendimiento.
+                </h3>
+            </div>  
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Agera/general-int.jpg" alt="">
+          </section>
+
+
+        <div>
+          <section style="margin-bottom: 30px;" class="section-1">   
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #bb621d;">Un mundo interno</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Interior</h2>
+                <h3 class="section-h3 color3">
+                  El volante, revestido en cuero perforado y fibra de carbono, está lleno de controles táctiles, poniendo al alcance de tus dedos la información y ajustes necesarios para dominar la carretera o la pista. El panel de instrumentos, completamente digital, proporciona datos críticos con claridad, desde la velocidad y las RPM hasta la configuración aerodinámica y la temperatura de los neumáticos. La consola central, con botones de aluminio anodizado, incorpora una pantalla táctil que permite gestionar todo, desde el sistema de entretenimiento hasta la configuración del motor.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Agera/interior.jpg" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Agera/interior.jpg" alt=""><!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Agera/fov.jpg" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #bb621d;">Como lo ves</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">El Fov</h2>
+                <h3 class="section-h3 color3">
+                  Acá tienes una imagen de lo que verías al entrar al impresionante Agera One, es una experiensa única.
+                </h3>
+            </div>
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Agera/fov.jpg" alt=""> <!--Cimagen-->
+          </section>
+
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <div>
+                <span style="color: #838383;">Confort</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Asientos</h2>
+                <h3 class="section-h3 color3">
+                  Están moldeados con precisión a partir de una estructura de fibra de carbono ultraligera, diseñada para reducir el peso total del vehículo sin sacrificar la resistencia. Su diseño envolvente ofrece un soporte lateral excepcional, manteniendo al conductor y al pasajero firmemente en su lugar durante las curvas más exigentes y aceleraciones extremas. Están tapizados en una combinación de cuero premium y Alcantara, materiales que no solo ofrecen una apariencia lujosa, sino también durabilidad y una sensación de agarre extra para un control seguro en todas las condiciones.
+                </h3>
+            </div>
+            <img class="img-deportivos-escritorio" src="Agera/Asientos.webp" alt=""> <!--Cimagen-->
+            <!-- img mobile -->
+            <img class="img-deportivos-mobile" src="Agera/Asientos.webp" alt=""> <!--Cimagen-->
+          </section>
+          <section style="margin-bottom: 30px;" class="section-1">  
+            <!-- img escritorio -->
+            <img class="img-deportivos-escritorio" src="Agera/pantalla.webp" alt=""> <!--Cimagen-->
+            <div>
+                <span style="color: #bb621d;">Boton</span> <!--COLOR-->
+                <h2 class="h2-regulares color2">Pantalla</h2>
+                <h3 class="section-h3 color3">
+                  Una pieza central de tecnología avanzada y diseño funcional. Situada en el panel de instrumentos, la pantalla es completamente digital y ofrece una interfaz intuitiva que proporciona toda la información crítica de rendimiento en tiempo real. Su diseño gráfico es elegante y fácil de leer, mostrando datos esenciales como la velocidad, las RPM del motor, la temperatura de los frenos y el estado del sistema de tracción. La parte central del volante está decorada con detalles en fibra de carbono, resaltando su carácter deportivo y técnico. Los controles táctiles están estratégicamente ubicados, permitiendo al conductor gestionar funciones críticas sin quitar las manos de la carretera.
+                </h3>
+            </div>
+            <!-- img mobile -->
+              <img class="img-deportivos-mobile" src="Agera/pantalla.webp" alt=""> <!--Cimagen-->
+          </section>
+        </div>
+
+        
+      </div>
+
+
+
+
+
+
+
+        <!-- Exterior -->
+      <div id="opcion4" class="div-opcion3">
+        <h1 id="h1-opcion3">Exterior</h1> 
+        <section class="section-1">  
+          <img class="img-deportivos-escritorio" src="Agera/general.jpg" alt="">
+          <div>
+              <span style="color: #7fb0c4;">Agera One</span>
+              <h2 class="h2-regulares color2">Exterior</h2>
+              <h3 class="section-h3 color3">
+                El diseño del Audi R8 2022 es una obra maestra de ingeniería y estética, con líneas agresivas y una estética audaz que te invita a dejar huella en cada camino. Desde su frente imponente hasta sus ruedas de gran tamaño, cada detalle está diseñado para expresar un mensaje de velocidad y poder.
+              </h3>
+          </div>  
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Agera/general.jpg" alt="">
+        </section>
+
+
+      <div>
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #b9532b;">Deportivo</span>
+              <h2 class="h2-regulares color2">Perfil</h2>
+              <h3 class="section-h3 color3">
+                Las puertas de tipo tijera, características de Koenigsegg, no solo aportan un toque futurista, sino que también mejoran la eficiencia aerodinámica. Las entradas de aire, integradas perfectamente en los laterales, aseguran que el motor y los frenos se mantengan refrigerados, incluso bajo las condiciones más extremas. Las ruedas, hechas de una aleación ultraligera y envueltas en neumáticos de alto rendimiento Michelin, están diseñadas para maximizar el agarre, soportando la tremenda aceleración y frenada que el Agera One puede generar.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="Agera/perffil.jpeg" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Agera/perffil.jpeg" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <img class="img-deportivos-escritorio" src="Agera/trasero.jpeg" alt="">
+          <div>
+              <span style="color: #b9532b;">One:1</span>
+              <h2 class="h2-regulares color2">Trasero</h2>
+              <h3 class="section-h3 color3">
+                Su alerón trasero activo, hecho de fibra de carbono ultraligera, ajusta dinámicamente la carga aerodinámica, asegurando estabilidad total a velocidades extremas. Las salidas de aire y las ventilaciones están colocadas estratégicamente para optimizar la refrigeración del potente motor V8 biturbo, mientras que el difusor trasero de gran tamaño canaliza el flujo de aire con precisión, mejorando la adherencia y reduciendo la resistencia. Los tubos de escape dobles, situados en el centro, emiten un rugido brutal que anuncia su potencia descomunal.
+              </h3>
+          </div>
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Agera/trasero.jpeg" alt="">
+        </section>
+
+        <section style="margin-bottom: 30px;" class="section-1">  
+          <!-- img escritorio -->
+          <div>
+              <span style="color: #b9532b;">Brillantes</span>
+              <h2 class="h2-regulares color2">LEDS</h2>
+              <h3 class="section-h3 color3">
+                Las luces traseras delgadas y horizontales, combinadas con la estructura robusta y baja, refuerzan su presencia intimidante. Ilumina cada ángulo de tu vista.
+              </h3>
+          </div>
+          <img class="img-deportivos-escritorio" src="Agera/led.jpeg" alt="">
+          <!-- img mobile -->
+          <img class="img-deportivos-mobile" src="Agera/led.jpeg" alt="">
+        </section>
+
+        <section class="section-galeria">
+          <div class="galeria-de-imagenes">
+            <div class="fila1">
+              <img class="fto1" src="Agera/general-int.jpg" alt="">
+              <img class="fto2" src="Agera/galeria1.jpg" alt="">
+              <img class="fto3" src="Agera/galeria2.webp"  alt="">
+            </div>
+            <div class="fila2">
+              <div class="div1-fila2">
+                <img class="fto4" src="Agera/ruedas.jpg" alt="">
+                <h1 style="margin-left: 100px;">Dominando</h1>
+              </div>
+              <div class="div2-fila2">
+                <img class="fto5" src="Agera/general4.jpg" alt="">
+              </div>
+            </div>
+            <h1>la velocidad, la adrenalina, redefiniendo los límites.</h1>
+          </div>
+        </section>
+
+
+
+
+        
+      </div>
+      
+
+
+      
+    </div>
+
+    </main>
+
+
+
+
+
+      
+<!-- Footer -->
+   <footer class="footer">
+    <div class="footer-div1">
+      <div class="footer-div-row">
+
+        <div class="footer-div-links">
+          <h4>Ayuda</h4>
+          <ul>
+            <li><a href="consulta.html">Preguntas</a></li>
+            <li><a href="https://www.instagram.com/thiagoml43">Contactanos</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-div-links">
+          <h4>Modelos</h4>
+          <ul>
+            <li><a href="VolkswagenGTI.html">Volkswagen gti 2024</a></li>
+            <li><a href="BmwM1.html">BMW 1m 2012</a></li>
+            <li><a href="LamborghiniHuracan.html">Lamborghini Huracan 2020</a></li>
+            <li><a href="AudiR8.html">Audi R8 2022</a></li>
+            <li><a href="Porsche911.html">Porsche 911 2015</a></li>
+            <li><a href="ferrariSF90.html">Ferrari SF90 2020</a></li>
+            <li><a href="LamborghiniRevuelto.html">Lamborghini Revuelto 2024</a></li>
+            <li><a href="Ageraone.html">Koenniseg Agera one 2021</a></li>
+            <li><a href="MercedesAMG.html">Mercedes AMG One 2021</a></li>
+            <li><a href="Bugatti.html">Bugatti Chiron 2019</a></li>
+            <li><a href="Mclaren.html">Mclaren Senna 2020</a></li>
+        </ul>
+        </div>
+
+        <div class="footer-div-links siguenos">
+          <h4>Síguenos</h4>
+          <div class="footer-social-link">
+            <a href="https://www.ecured.cu/images/2/28/Benjaminlira.jpg" TARGET="_BLANK"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/thiagoml43" TARGET="_BLANK"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/?lang=es" TARGET="_BLANK"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/santiicantale/?hl=es-la" TARGET="_BLANK"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <script src="MODELOS.js"></script>
+  <script src="loading-modelo.js"></script>
+
+
+  
+</body>
+</html>

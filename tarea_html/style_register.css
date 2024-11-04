@@ -1,0 +1,233 @@
+*{  
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family:'Courier New', Courier, monospace;
+}
+::placeholder { color:rgb(255, 255, 255) }
+
+body{
+    background-image: url(walpapper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.login{
+    background-color: rgba(42, 42, 42, 0.37);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 500px;
+    border-radius: 30px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+}
+.login h1{
+    margin-bottom: 10%;
+}
+.usuario input{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(240, 248, 255, 0) ;
+    border: 0;
+    width: 100%;
+    border-bottom: solid 1px rgb(255, 255, 255);
+}
+.usuario{
+    margin-bottom: 10%;
+}
+.usu{
+    margin-bottom: 10%;
+    width: 100%;
+}
+.usu4{
+    margin-bottom: 5%;
+    display: flex;
+    width: 100%;
+}
+
+.boton {
+    margin-top: 7%;
+    padding: 17px 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1%;
+    border-color: rgb(255, 255, 255);
+    width: 100%;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.boton:hover {
+    letter-spacing: 3px;
+    background-color: hsla(0, 0%, 0%, 0);
+    border-color: white;
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(255, 255, 255) 0px 7px 29px 0px;
+}
+
+.botton:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.f{
+    margin-top: 10px;
+    text-align: center;
+}
+.equis{
+    margin: 20px;
+    margin-top: 10px;
+    font-size: 70px;
+}
+.forgot{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-decoration: none;  
+}
+.forgot:hover{
+    color: white;
+}
+
+.group {
+    position: relative;
+   }
+   
+   .input {
+    font-size: 16px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #515151;
+    background: transparent;
+   }
+   
+   .input:focus {
+    outline: none;
+   }
+   
+   label {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+   
+   .input:focus ~ label, .input:valid ~ label {
+    top: -20px;
+    font-size: 14px;
+    color: #ffffff;
+   }
+   
+   .bar {
+    position: relative;
+    display: block;
+    width: 104.5%;
+   }
+   
+   .bar:before, .bar:after {
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #ffffff;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+   }
+
+   .bar:before {
+    left: 50%;
+   }
+   
+   .bar:after {
+    right: 50%;
+   }
+   
+   .input:focus ~ .bar:before, .input:focus ~ .bar:after {
+    width: 50%;
+   }
+   
+   .highlight {
+    position: absolute;
+    height: 60%;
+    width: 100px;
+    top: 25%;
+    left: 0;
+    pointer-events: none;
+    opacity: 0.5;
+   }
+   
+   .input:focus ~ .highlight {
+    animation: inputHighlighter 0.3s ease;
+   }
+   .xd{
+    margin-top: 7%;
+   }
+   
+   @keyframes inputHighlighter {
+    from {
+     background: #ffffff00;
+    }
+   
+    to {
+     width: 0;
+     background: transparent;
+    }
+}
+
+
+
+
+/* MENSAJE */
+.tooltip {
+    position: absolute;
+    font-size: 14px;
+    background: #c40000;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    z-index: 9325275;
+}
+
+.tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #c40000;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
